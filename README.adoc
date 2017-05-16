@@ -99,6 +99,10 @@ It is crucial to be able to take snapshots
 What you will need -- Optional
 ------------------------------
 
+- Cuckoo automated malware analysis system
+  https://cuckoosandbox.org
+  https://github.com/cuckoosandbox/cuckoo/releases
+
 - REMnux virtual appliance - https://remnux.org/#distro
 
 - 'malboxes' tool from GoSecure (or you can install the virtual box manually)
@@ -237,15 +241,79 @@ Sandbox - manual preparation
 
  dnf -y install kernel-devel-`uname -r`
  dnf -y install VirtualBox akmod-Virtualbox
+ akmods
+
+- Bootstrap networking
+
+ # Bootstrap needs to be executed before running any Virtualbox machines
+ # Should be executed after reboot or if vbox is not running for some time
+
+ #Remove existing DHCP server configurations
+ vboxmanage dhcpserver remove --ifname vboxnet0
+ vboxmanage dhcpserver remove --ifname vboxnet1
+
+ #Remove any existing hostonly networks
+ vboxmanage hostonlyif remove vboxnet0
+ vboxmanage hostonlyif remove vboxnet1
+
+ #Create 2 new ones
+ vboxmanage hostonlyif create
+ vboxmanage hostonlyif create
+
+ #Default VMware configuration - leave it safe for potential external images to test/use
+ vboxmanage hostonlyif ipconfig vboxnet0 --ip 192.168.56.1 --netmask 255.255.255.0
+ vboxmanage dhcpserver add --ifname vboxnet0 --ip 192.168.56.100 --netmask 255.255.255.0 \
+         --lowerip 192.168.56.101 --upperip 192.168.56.254 --enable
+
+ #Dedicate this one for the malware hostile networking
+ vboxmanage hostonlyif ipconfig vboxnet1 --ip 192.168.100.1 --netmask 255.255.255.0
+ vboxmanage dhcpserver add --ifname vboxnet1 --ip 192.168.100.100 --netmask 255.255.255.0 \
+         --lowerip 192.168.100.101 --upperip 192.168.100.254 --enable
+
+ vboxmanage list -l hostonlyifs
+ vboxmanage list -l dhcpservers
 
 
 - create new virtual machine
 
- 
+ VM=rebox_w7_64
+ VMHOME="$HOME/vm"
+ VMOSTYPE="Windows7_64"
+
+ vboxmanage list ostypes
+ vboxmanage createvm --name "$VM" --ostype "$VMOSTYPE" --register --basefolder "$VMHOME"
+ vboxmanage createhd --filename $VMHOME/$VM/$VM.vdi --size 25600
+ vboxmanage storagectl "$VM" --name IDE --add ide
+ vboxmanage storageattach "$VM" --storagectl IDE --port 0 --device 0 --type hdd \
+    --medium $VMHOME/$VM/$VM.vdi
+ vboxmanage modifyvm "$VM" --memory 1024 --vram 128
+ #One device internal for host-only malware analysis
+ vboxmanage modifyvm "$VM" --nic1 hostonly --hostonlyadapter1 vboxnet1
+ #One device for external access if needed
+ vboxmanage modifyvm "$VM" --nic2 nat --cableconnected2 off
+
 - boot it from one of the MS Windows installation iso images
-- be sure to take the snapshot or cloning a full copy after the base installation
-- instal rudimentary tools and libraries usually exploited by malware
+
+ vboxmanage storageattach "$VM" --storagectl IDE --port 1 --device 0 --type dvddrive \
+   --medium "$HOME/iso/en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso"
+
+ vboxmanage modifyvm "$VM" --boot1 dvd --boot2 disk --boot3 none --boot4 none
+
+ vboxheadless --startvm "$VM" --vrde on --vrdeproperty TCP/Ports=4489
+
+ rdesktop localhost:3389
+
+- eject dvd
+
+ vboxmanage storageattach "$VM" --storagectl "IDE" --port 1 --device 0 --type dvddrive --medium none
+
+- instal esential tools, applications and libraries usually exploited by malware
 ( acroread, java jre/jdk, firefox/chrome, flash, office if you want)
+
+- be sure to take the snapshot or cloning a full copy after the base installation
+
+ vboxmanage snapshot "$VM" take "baseline"
+
 - be sure to take a snapshot after clean install of sanbox
 
 
@@ -282,10 +350,12 @@ You can decide to:
 - download them by hand or using the list of them all (all_downloads.txt)
 
 - use prepared scripts to download them all (from unix machine or using unxtools on windows)
-```
-malware_lab_download.sh
-```
+
+ malware_lab_download.sh
+
 - use prepared scripts to install necessary packages (run in the windows sandbox)
+
+ malware_lab_install.bat
 
 
 Checks
@@ -293,16 +363,43 @@ Checks
 
 - start the sandbox in virtualbox
 - check that you can log-in as admin and normal user
-- check that you can start immunity debugger and open some 32bit executable for example some 32bit python binary
+- check that you can start Immunity Debugger and open some 32bit executable for example some 32bit python binary
 
 
 Known Issues
 ------------
 
-1) Virtualbox can't be installed by dnf on fedora - check that you added the rpmfusion repository
-2) Virtualbox doesn't start -> please make sure the kernel modules are compiled well (akmods command)
-3) Nokogiri fails to build -> you are missing zlib-deve
-4) gem install winrm fails -> use version 1.8.1
-5) "vagrant up" fails -> check that you do not have some funky http_proxy settings
+1) Virtualbox can't be installed by dnf on fedora 
+   -> check that you added the rpmfusion repository
+
+2) Virtualbox doesn't start
+   -> please make sure the kernel modules are compiled well (akmods command)
+
+3) Nokogiri fails to build
+   -> you are missing zlib-deve
+
+4) gem install winrm fails
+   -> use version 1.8.1
+
+5) "vagrant up" fails with funky message
+   -> check that you do not have some funky http_proxy settings
+
+6) malboxes build of Windows 7 hangs forever
+   -> yes there is something broken now in the Autounnatend.xml for Win7
+   build W10 32/64 machine instead
+
+
+7) malboxes build of Windows 10 breaks on chocolatey package xyz 
+   -> try again, packages are downloaded on fly and sometimes it fails even for working packages
+or build W7 machine manually
+
+8) Capturebat doesn't start on W10
+   -> limited functionality works on W7
+
+8) ImmunityDebugger / OllyDbg can't see/run/trace some binaries
+   -> yes both are 32 only, use windbg, x96dbg or radare2 for 64bit binaries
+
+
+
 
 

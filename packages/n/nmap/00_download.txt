@@ -1,0 +1,3 @@
+#https://nmap.org/download.html#windows
+#https://nmap.org/dist/nmap-6.47-setup.exe
+https://nmap.org/dist/nmap-7.12-setup.exe

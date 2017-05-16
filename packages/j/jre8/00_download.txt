@@ -1,0 +1,5 @@
+73bf9257e2f4ca73318d3c23181cbe1e93665bf13fda7b956252a70b975bcf8b	http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-windows-i586.exe
+5083590a30bf069e947dce8968221af21b39836fe013b111de70d6107b577cd3	http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-windows-x64.exe
+
+
+

@@ -1,0 +1,12 @@
+#http://www.rada.re/r/down.html
+#http://radare.org/get/pkg/radare2-w32-0.9.9-git.zip
+#http://radare.org/get/pkg/radare2-w32-0.10.5.zip
+# crashes on print msvcrt.dll
+#http://cloud.radare.org/get/1.4.0/radare2-w32-1.4.0.zip
+# fixed d6f0014271ad3f7dafb82cbe95657990b72358f0aa8e9047beee769d6034c565
+http://bin.rada.re/radare2-w32-1.5.0-git.zip
+
+
+
+
+

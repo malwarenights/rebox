@@ -1,0 +1,5 @@
+b8c694072723a417194022a2ba265750eec61e15d1725e39449df1763e224b45	http://downloads.sourceforge.net/project/unxutils/unxutils/current/UnxUtils.zip
+3f442b5d2a84cf112f3688ef21ab7cf8be0a905529e90fd33ec2370d3e263f80	http://unxutils.sourceforge.net/UnxUpdates.zip
+d5e85933e74e5ba6a73f67346bc2e765075d26949c831a428166c92772f67dbc	https://github.com/jessek/hashdeep/releases/download/v4.4/md5deep-4.4.zip
+f7bf37b5f9a413cefcfef1928675b68481e9fb4c54277e63cd8519e0e1bcdf9f	http://www.nfllab.com/sums/sums611.zip	sums-6.11.zip
+3b19cd1ab1bf8ffec404c28ff952e2b811d45abe4290d521932a003fdfd4bbde  	http://www.nfllab.com/sums/sums.zip	sums-6.9.zip

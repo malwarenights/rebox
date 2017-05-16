@@ -1,0 +1,2 @@
+#http://hte.sourceforge.net/downloads.html
+c4878e900f17f2051dd70e1bd280be99547c8f1c4fb846fe5306d326995bc6be http://sourceforge.net/projects/hte/files/ht-bin-win32/ht-2.1.0-win32.exe ht-2.1.0-win32.exe

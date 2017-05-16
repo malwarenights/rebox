@@ -1,0 +1,2 @@
+0acfb8ba01b6ec1c73c83b802acaa672566d974d4d6af4101571bb46561d1a85	https://downloadmirror.intel.com/19059/a08/PROWin32.exe	x
+85164df85a66785faa52c016414076dc8cf7a6463de7781878bf3875baf4a167	https://downloadmirror.intel.com/19059/a08/PROWinx64.exe	x

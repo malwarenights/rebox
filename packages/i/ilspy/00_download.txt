@@ -1,0 +1,1 @@
+d5e42b90024e3cdc047ee55269a057f24ffffb0d5f420d9c544e81e3622774fe	https://github.com/icsharpcode/ILSpy/releases/download/v2.4/ILSpy_Master_2.4.0.1963_Binaries.zip

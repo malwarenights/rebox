@@ -1,0 +1,10 @@
+http://www.ollydbg.de/
+http://www.ollydbg.de/download.htm
+
+https://tuts4you.com/download.php?list.94
+https://github.com/0vercl0k/ollydbg2-python
+https://tuts4you.com/download.php?view.3614
+
+Plugins:
+http://low-priority.appspot.com/ollymigrate/
+http://low-priority.appspot.com/ollydumpex/

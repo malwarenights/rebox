@@ -1,0 +1,50 @@
+#===== Microsoft Visual C++ 2005 Redistributable Package
+4ee4da0fe62d5fa1b5e80c6e6d88a4a2f8b3b140c35da51053d0d7b72a381d29	http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE	2005_vcredist_x86-6.00.2900.2180.exe
+0551a61c85b718e1fa015b0c3e3f4c4eea0637055536c00e7969286b4fa663e0	http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE	2005_vcredist_x64-6.00.2900.2180.exe
+
+#===== Microsoft Visual C++ 2008 Redistributable Package
+# Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)
+# 2008_vcredist_x86-9.0.30729.17.exe	- https://www.microsoft.com/en-us/download/details.aspx?id=5582
+# 9.0.21022.08 - https://www.microsoft.com/en-us/download/details.aspx?id=15336
+# baaaeddc17bcda8d20c0a82a9eb1247be06b509a820d65dda1342f4010bdb4a0	https://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe	2008_vcredist_x64-9.0.21022.08.exe
+# c6a7e484f4d84883bc1205bccea3114c0521025712922298ede9b2a1cd632357	2008_vcredist_x86-9.0.21022.08.exe
+# 55bf99ad3f063165c3ee1626787b5d4c2b65b5001fef79dd58c3490369ed282f	https://download.microsoft.com/download/2/d/6/2d61c766-107b-409d-8fba-c39e61ca08e8/vcredist_x64.exe	2008_vcredist_x64-9.0.30729.17.exe
+# 41f45a46ee56626ff2699d525bb56a3bb4718c5ca5f4fb5b3b38add64584026b	https://download.microsoft.com/download/d/d/9/dd9a82d0-52ef-40db-8dab-795376989c03/vcredist_x86.exe	2008_vcredist_x86-9.0.30729.17.exe
+# https://www.microsoft.com/en-us/download/details.aspx?id=26360
+# https://www.microsoft.com/en-us/download/details.aspx?id=26368
+6b3e4c51c6c0e5f68c8a72b497445af3dbf976394cbb62aa23569065c28deeb6	https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe	2008_vcredist_x86-9.0.30729.5677.exe
+b811f2c047a3e828517c234bd4aa4883e1ec591d88fad21289ae68a6915a6665	https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe	2008_vcredist_x64-9.0.30729.5677.exe
+#????	????	2008_vcredist_x64-9.0.30729.6161.exe
+
+#===== Microsoft Visual C++ 2010 Redistributable Package (x86)
+# 2010_vcredist_x86-10.0.30319.01.exe	- https://www.microsoft.com/en-us/download/details.aspx?id=5555
+# 2010_vcredist_x86-10.0.40219.1.exe 	- http://www.microsoft.com/en-us/download/confirmation.aspx?id=8328
+66b797b3b4f99488f53c2b676610dfe9868984c779536891a8d8f73ee214bc4b	http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe	2010_vcredist_x86-10.0.40219.1.exe
+c6cd2d3f0b11dc2a604ffdc4dd97861a83b77e21709ba71b962a47759c93f4c8	http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe	2010_vcredist_x64-10.0.40219.01.exe
+
+
+
+#===== Visual C++ Redistributable for Visual Studio 2012 Update 4
+# https://www.microsoft.com/en-us/download/details.aspx?id=30679
+b924ad8062eaf4e70437c8be50fa612162795ff0839479546ce907ffa8d6e386	http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe	2012_vcredist_x86-11.0.61030.exe
+681be3e5ba9fd3da02c09d7e565adfa078640ed66a0d58583efad2c1e3cc4064	http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe	2012_vcredist_x64-11.0.61030.exe
+
+
+#===== Microsoft Visual C++ 2013 Redistributable Package
+# https://www.microsoft.com/en-GB/download/details.aspx?id=40784
+e554425243e3e8ca1cd5fe550db41e6fa58a007c74fad400274b128452f38fb8	https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe	2013_vcredist_x64-12.0.30501.exe
+a22895e55b26202eae166838edbe2ea6aad00d7ea600c11f8a31ede5cbce2048	https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe	2013_vcredist_x86-12.0.30501.exe
+
+
+#===== Visual C++ Redistributable for Visual Studio 2015
+# https://www.microsoft.com/en-us/download/details.aspx?id=48145
+#5eea714e1f22f1875c1cb7b1738b0c0b1f02aec5ecb95f0fdb1c5171c6cd93a3  2015_vcredist_x64-14.0.23026.0.exe
+#fdd1e1f0dcae2d0aa0720895eff33b927d13076e64464bb7c7e5843b7667cd14  2015_vcredist_x86-14.0.23026.0.exe
+12a69af8623d70026690ba14139bf3793cc76c865759cad301b207c1793063ed	https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe	2015_vcredist_x86-14.0.24215.1.exe
+da66717784c192f1004e856bbcf7b3e13b7bf3ea45932c48e4c9b9a50ca80965	https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe	2015_vcredist_x64-14.0.24215.1.exe
+
+
+# ===== Microsoft Visual C++ 2017 Redistributable Package
+# https://blogs.msdn.microsoft.com/visualstudio/2017/03/07/announcing-visual-studio-2017-general-availability-and-more/
+20f456aab2938d638e9e08ebcaf576c5a0bc7c1ad447645f1f07a26b147dbbfa	https://download.microsoft.com/download/1/d/8/1d8137db-b5bb-4925-8c5d-927424a2e4de/vc_redist.x86.exe	2017_vc_redist.x86-14.10.25008.exe
+341d4baa491daa5bebd0e061577e3f840c8157417c636fd2285d9bdf71fc4660	https://download.microsoft.com/download/5/7/b/57b2947c-7221-4f33-b35e-2fc78cb10df4/vc_redist.x64.exe	2017_vc_redist.x64-14.10.25008.exe

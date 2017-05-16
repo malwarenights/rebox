@@ -1,0 +1,9 @@
+
+# https://www.python.org/downloads/windows/
+8b3e65fc1aad8809bb69477e922c3609a8e8fa9e2f6d5ab8f00f3553e3c61d7a	https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi
+44ea95356365195b18a5058796285789b0bfc94da1ee2ec1cb8e0a1c2ff6017a	https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi
+3793cb8874f5e156a161239fea04ad98829d4ecf623d52d43513780837eb4807	https://www.python.org/ftp/python/2.7.6/python-2.7.6.amd64.msi
+cfa801a6596206ec7476e9bc2687fcd331c514b3dd92ffc3cd7d63e749ba0b2f	https://www.python.org/ftp/python/2.7.6/python-2.7.6.msi
+# http://www.7-zip.org
+dbb2b11dea9f4432291e2cbefe14ebe05e021940e983a37e113600eee55daa95	http://www.7-zip.org/a/7z1604.exe
+9bb4dc4fab2a2a45c15723c259dc2f7313c89a5ac55ab7c3f76bba26edc8bcaa	http://www.7-zip.org/a/7z1604-x64.exe

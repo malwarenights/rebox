@@ -1,0 +1,3 @@
+# https://github.com/0xd4d/dnSpy/releases
+https://github.com/0xd4d/dnSpy/releases/download/v3.0.0/dnSpy.zip
+

@@ -1,0 +1,3 @@
+# https://github.com/upx/upx/releases
+# Originally on https://sourceforge.net/projects/upx/files/upx/
+e1f21726740b466379c8109daaecb83b7ec7588b698aa958c977235aae50fe56	https://github.com/upx/upx/releases/download/v3.93/upx393w.zip

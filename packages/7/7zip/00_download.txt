@@ -1,0 +1,3 @@
+# http://www.7-zip.org
+9bb4dc4fab2a2a45c15723c259dc2f7313c89a5ac55ab7c3f76bba26edc8bcaa	http://www.7-zip.org/a/7z1604-x64.exe
+dbb2b11dea9f4432291e2cbefe14ebe05e021940e983a37e113600eee55daa95	http://www.7-zip.org/a/7z1604.exe

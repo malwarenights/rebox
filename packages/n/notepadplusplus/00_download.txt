@@ -1,0 +1,2 @@
+c59a2b8ba98d0bb849e55aa8ad1cfc9af54ed9acc1a087a43033e23bebedc0e8	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.exe
+656e7a31ee07d7febcb49822dd166cb72afe23d4dccf546f2c6b45bcd959e5a1	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.x64.exe
