@@ -1,0 +1,308 @@
+REBOX - Sandbox for Reversing Engineering (Malware)
+===================================================
+:author:        MalwareNights 2017
+:backend:       slidy
+:max-width:     45em
+:duration:      1
+:data-uri:
+:icons:
+
+
+
+TLTR - Too lazy to read Install Guide
+-------------------------------------
+
+ # On linux host
+ #git clone https://github.com/GoSecure/malboxes
+ git clone  https://github.com/malwarenights/malboxes
+ cd malboxes
+ sudo python setup.py install
+ malboxes build win10_64_analyst
+ malboxes spin win10_64_analyst rebox_w10_x64
+ git clone  https://github.com/malwarenights/rebox
+ cd rebox
+ malware_lab_download.sh
+
+ # On windows guest
+ malware_lab_install.bat
+ shutdown /s
+
+ # Back on the linux host
+ # snapshot #1 - to be able to clone/export
+ vboxmanage snapshot 'rebox_w10_x64' take 'baseline_off'
+ # start
+ vboxmanage startvm 'rebox_w10_x64'
+ sleep 120
+ # snapshot #2 - to have fast startup
+ vboxmanage snapshot 'rebox_w10_x64' take 'baseline_on'
+
+
+FOREWORD
+--------
+
+Dear colleagues,
+I hope this guide, tools, lists should help you to get up and running and
+prepare the sandbox environment for the upcomming introductory session
+of reverse engineering the malware.
+
+I have tried to summarize steps and sources of the tools used in the class (and more)
+in such a way it is reproducible in semi-automated way to be able to share it somehow
+with the attendees of this class. Hope you enjoy and contribute with the git pull
+requests, should you find any bugs in the configuration or scripting.
+
+It is assumed that you will use linux as the host system and install windows as a guest.
+
+It was tested under the Fedora Linux 25 as a host system and should work 
+on RedHat based systems such as Fedora, Centos, RedHat Enterprise Linux 7.
+The same tools and techniques are known to work on Debian systems (Ubuntu, Kali etc.) as well.
+Mainly the "dnf/yum install" should be replaced with "apt-get install".
+It would be great if somebody preffering Debian/Ubuntu can test and feedback.
+
+It is possible to use windows as the host system - but be carefull to not execute malware
+accidentally in your host system.
+
+
+
+REBOX - Sandbox for Reversing Engineering (Malware)
+---------------------------------------------------
+
+- For this introductory session of reverse engineering the malware you will need certain tooling.
+
+- There will be not enough time in the class to get this all running and not enough network bandwith so everybody would download everything needed so
+
+- please come with windows virtual machine installed ready to run
+
+- and with the tools at least downloaded.
+
+
+
+What you will need - core tools
+-------------------------------
+
+- Virtualbox or any other virtualization
+It is crucial to be able to take snapshots
+  https://www.virtualbox.org/wiki/Downloads
+
+- Win7/Win10 virtual machine
+
+- Immunity Debugger - https://www.immunityinc.com/products/debugger/
+
+- python27 32 bit - https://www.python.org/downloads/windows/
+
+- WinDBG - https://developer.microsoft.com/en-us/windows/hardware/windows-driver-kit
+
+- dnSpy - https://github.com/0xd4d/dnSpy
+- ilSpy - http://ilspy.net/
+
+
+
+What you will need -- Optional
+------------------------------
+
+- REMnux virtual appliance - https://remnux.org/#distro
+
+- 'malboxes' tool from GoSecure (or you can install the virtual box manually)
+
+- gnu 'coreutils' such as obsolete but small 'unxtools' or up-to-date coreutils tools from 'git' windows package
+
+- other debuggers such as ollydbg, x64dbg, ...
+
+- other analysis tools like capturebat, sysinternals, peid, binwalk, ....
+
+
+
+Sandbox - Base virtual image on trusted source
+-----------------------------------------------
+
+TIP: Base the sandbox on some genuine Microsoft ISO (you can use the 30 day trial for the purpose of the class) for example:
+
+These work with the automated installation using "malboxes" tool:
+
+* Win10 32bit - SHA1:0b8e56772c71dc7bb73654c61e53998a997e1e4d
+http://care.dlservice.microsoft.com/dl/download/2/5/4/254230E8-AEA5-43C5-94F6-88CE222A5846/14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X86FRE_EN-US.ISO[14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X86FRE_EN-US.ISO]
+
+* Win10 64bit - SHA1:a86ae3d664553cd0ee9a6bcd83a5dbe92e3dc41a
+http://care.dlservice.microsoft.com/dl/download/2/5/4/254230E8-AEA5-43C5-94F6-88CE222A5846/14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO[14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO]
+
+* Win7 32bit - SHA1:d89937df3a9bc2ec1a1486195fd308cd3dade928
+ https://www.google.com/search?q=d89937df3a9bc2ec1a1486195fd308cd3dade928+en_windows_7_professional_with_sp1_x86_dvd_u_677056.iso[en_windows_7_professional_with_sp1_x86_dvd_u_677056.iso]
+
+* Win7 64bit - SHA1:0bcfc54019ea175b1ee51f6d2b207a3d14dd2b58
+ https://www.google.com/search?q=0bcfc54019ea175b1ee51f6d2b207a3d14dd2b58+en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso[en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso]
+
+TIP: You can base the sanbox image also on the MS Virtual machine for testing
+- to test how vulnerable it would be to some specific version of Windows + IE/Edge
+
+* https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/
+* https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE9/Windows/IE9.Win7.For.Windows.VirtualBox.zip
+* https://az792536.vo.msecnd.net/vms/VMBuild_20160411/VirtualBox/MSEdge/MSEdge.Win10_14316.VirtualBox.zip
+
+
+
+Malboxes - the automated sandbox preparation - Fedora 25
+--------------------------------------------------------
+
+TIP: It is possible to use https://github.com/GoSecure/malboxes["malboxes"] from GoSecure to automate the base installation of sandbox for you.
+This has the benefit of also automating installation of basic runtime libraries, .Net and essencial packages for you in point and shoot manner.
+It also install chocolatey package manager to make it easy to install other freeware packages.
+
+- Update the system and reboot with the latest kernel/glibc
+
+ dnf -y update
+
+- Install dependencies - vagrant, virtualbox, packer
+
+ # Add rpmfusion repository for Fedora
+ dnf -y install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+ dnf -y install --nogpgcheck http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+- Get Virtualbox and vagrant running together
+
+ dnf -y install VirtualBox python-VirtualBox VirtualBox-server akmod-VirtualBox vagrant
+ dnf -y curl wget git
+
+ #needed to compile/install ruby gems by bundler
+ dnf -y install ruby-devel zlib-devel rubygem-nokogiri rubygem-builder rubygem-gssapi rubygem-httpclient rubygem-logging rubygem-pry rubygem-rake rubygem-rspec
+
+ vagrant plugin install winrm --plugin-version=1.8.1
+ vagrant plugin install winrm-fs
+
+- Get "packer" from https://www.packer.io/downloads.html
+
+ # installing pre-compiled packer.io
+ wget https://releases.hashicorp.com/packer/1.0.0/packer_1.0.0_linux_amd64.zip
+ unzip packer_1.0.0_linux_amd64.zip
+ mkdir ~/bin
+ # name "packer" collides with tool from cracklib
+ mv packer ~/bin/packer-io
+ chmod +x ~/bin/packer-io
+ echo 'export PATH=~/bin:$PATH' > ~/.bashrc
+ . ~/.bashrc
+
+
+- Or Building packer yourself
+
+ #Set Go environment for packer.io compilation (not needed if you installed binary package)
+ echo -e '\n#GO Environment\nexport GOPATH=$HOME/go\nexport PATH=$PATH:$GOPATH/bin' | tee -a .bashrc
+
+ go get github.com/mitchellh/packer
+ cd $GOPATH/src/github.com/mitchellh/packer
+ make
+
+
+- Get "malboxes" tool from GoSecure github repository
+
+ cd ~
+ #git clone https://github.com/GoSecure/malboxes
+ git clone https://github.com/malwarenights/malboxes
+ cd malboxes
+ python3 setup.py build
+ sudo python3 setup.py install
+
+- Get the MS Windows iso
+
+ mkdir ~/iso
+ cd ~/iso
+ wget http://care.dlservice.microsoft.com/dl/download/2/5/4/254230E8-AEA5-43C5-94F6-88CE222A5846/14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO
+
+- Configure location of iso directory malboxes configuration
+
+ malboxes build win10_64_analyst
+ # break with ctrl-c as soon as the config /home/user/.config/malboxes/config.js is ctreated
+ # vi ~/.config/malboxes/config.js
+ sed -i -e "s|^.*iso_path.*$|\"iso_path\": \"$HOME/iso/\",|;" ~/.config/malboxes/config.js
+
+
+- Build VM
+
+ export PATH=$GOPATH/bin:$PATH
+ malboxes list
+
+- You can fix paths to ISO in ~/.config/malboxes/config.js
+
+ malboxes build win10_64_analyst
+
+- Builds will be created in ~/.cache/malboxes/boxes
+
+ malboxes spin win10_64_analyst rebox_w10_64
+
+
+
+
+Sandbox - manual preparation
+----------------------------
+
+
+- use virtual box
+
+ dnf -y install kernel-devel-`uname -r`
+ dnf -y install VirtualBox akmod-Virtualbox
+
+
+- create new virtual machine
+
+ 
+- boot it from one of the MS Windows installation iso images
+- be sure to take the snapshot or cloning a full copy after the base installation
+- instal rudimentary tools and libraries usually exploited by malware
+( acroread, java jre/jdk, firefox/chrome, flash, office if you want)
+- be sure to take a snapshot after clean install of sanbox
+
+
+Post installation
+-----------------
+
+- after installation you probably would like more tweak on configuration such as autoupdates
+  to keep the machine quiet as much as possible
+
+- you might need to do aditional hardening to avoid certain anti-anti-malware checks
+
+- host-only networking
+  it is recommended to switch to host only networking to have better control over
+  the malicious network traffic from-to the sandbox
+
+- it is beneficial to have several accounts created with different privileges, like
+  admin01 admin02 user01 user02
+
+- after building of the base sandbox it is recommended to mount 2 shares:
+	** share_ro - read only access to access installation of packages
+	** share_rw - to be able to write and share the results with host system
+
+- you probably want to run the sandbox with the 'autologon' from the 'sysinternals'
+	** https://technet.microsoft.com/en-us/sysinternals/autologon.aspx
+	** https://technet.microsoft.com/en-us/sysinternals/default
+
+
+Tools specific for analysis of malware
+--------------------------------------
+
+In this repository you will find lists and scripts to help you downloading the tools used for malware analysis.
+You can decide to:
+
+- download them by hand or using the list of them all (all_downloads.txt)
+
+- use prepared scripts to download them all (from unix machine or using unxtools on windows)
+```
+malware_lab_download.sh
+```
+- use prepared scripts to install necessary packages (run in the windows sandbox)
+
+
+Checks
+------
+
+- start the sandbox in virtualbox
+- check that you can log-in as admin and normal user
+- check that you can start immunity debugger and open some 32bit executable for example some 32bit python binary
+
+
+Known Issues
+------------
+
+1) Virtualbox can't be installed by dnf on fedora - check that you added the rpmfusion repository
+2) Virtualbox doesn't start -> please make sure the kernel modules are compiled well (akmods command)
+3) Nokogiri fails to build -> you are missing zlib-deve
+4) gem install winrm fails -> use version 1.8.1
+5) "vagrant up" fails -> check that you do not have some funky http_proxy settings
+
+
