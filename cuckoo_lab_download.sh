@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PGKSTORE=packages
+PKGSTORE=packages
 DOWNFILE=00_download.txt
 
 MODULES="\
@@ -18,8 +18,8 @@ exe2aut
 
 for MODULE in $MODULES ; do
 	LETTER1=`echo "$MODULE" | cut -c 1`
-	if [ -f "${PKGSTORE}${LETTER1}/${MODULE}/${DOWNFILE}" ] ; then
-		./download.sh "${PKGSTORE}${LETTER1}/${MODULE}/${DOWNFILE}"
+	if [ -f "${PKGSTORE}/${LETTER1}/${MODULE}/${DOWNFILE}" ] ; then
+		./download.sh "${PKGSTORE}/${LETTER1}/${MODULE}/${DOWNFILE}"
 	fi
 done
 
