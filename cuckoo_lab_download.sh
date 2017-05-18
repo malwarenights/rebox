@@ -8,6 +8,8 @@ MODULES="\
 adobereader
 unxutils
 chocolatey
+flash
+jre8
 msdotnet
 msvsruntime
 autoit
@@ -16,7 +18,7 @@ exe2aut
 
 for MODULE in $MODULES ; do
 	LETTER1=`echo "$MODULE" | cut -c 1`
-	if [ -f "${LETTER1}/${MODULE}/${DOWNFILE}" ] ; then
+	if [ -f "${PKGSTORE}${LETTER1}/${MODULE}/${DOWNFILE}" ] ; then
 		./download.sh "${LETTER1}/${MODULE}/${DOWNFILE}"
 	fi
 done
