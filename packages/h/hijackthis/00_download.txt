@@ -1,0 +1,5 @@
+# http://sourceforge.net/projects/hjt/
+# http://sourceforge.net/projects/hjt/files/
+# http://sourceforge.net/projects/hjt/files/2.0.4/
+2c16c24866b3016405b1b49a086c4e276d29cfedbf5bba2a47d54db6a2a5731c	https://downloads.sourceforge.net/project/hjt/2.0.4/HijackThis.exe	HijackThis-2.0.4.exe
+

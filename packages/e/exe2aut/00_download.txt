@@ -1,2 +1,2 @@
-http://domoticx.phoenixinteractive.nl/software/exe2aut/Exe2Aut%20v0.10.0.0%20%282014-01-09%29.7z
-http://145.130.102.57/domoticx/software/exe2aut/Exe2Aut%20v0.10.0.0%20%282014-01-09%29.7z
+2d81ce97318b41461425401292b91723d5454fe7eadbb02c6fc13d2356d54794	http://domoticx.phoenixinteractive.nl/software/exe2aut/Exe2Aut%20v0.10.0.0%20%282014-01-09%29.7z
+2d81ce97318b41461425401292b91723d5454fe7eadbb02c6fc13d2356d54794	http://145.130.102.57/domoticx/software/exe2aut/Exe2Aut%20v0.10.0.0%20%282014-01-09%29.7z
