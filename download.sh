@@ -1,8 +1,11 @@
 #!/bin/sh
 
+PKGSTORE=packages
 DOWN_FILE=00_download.txt
 
-DOWN_DIR="$1"
+MODULE="$1"
+LETTER1=`echo "$MODULE" | cut -c 1`
+DOWN_DIR="${PKGSTORE}/${LETTER1}/${MODULE}"
 
 if [ "x$DOWN_DIR" = "x" ] ; then
 	echo "Syntax: $0 dir"
