@@ -32,6 +32,8 @@ echo  ===== unpack the hasdeep
 move /y %TARGET%\md5deep-4.4\*.exe %TARGET%
 rmdir %TARGET%\md5deep-4.4 /s /q
 
+echo  ===== rename find to gnufind
+move /y %TARGET%\find.exe %TARGET%\gnufind.exe
 
 :END
 popd

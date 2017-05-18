@@ -105,7 +105,7 @@ What you will need -- Optional
 
 - REMnux virtual appliance - https://remnux.org/#distro
 
-- 'malboxes' tool from GoSecure (or you can install the virtual box manually)
+- 'malboxes' tool from GoSecure (or you can install the virtual machine manually)
 
 - gnu 'coreutils' such as obsolete but small 'unxtools' or up-to-date coreutils tools from 'git' windows package
 
@@ -237,7 +237,7 @@ Sandbox - manual preparation
 ----------------------------
 
 
-- use virtual box
+- use 'virtualbox'
 
  dnf -y install kernel-devel-`uname -r`
  dnf -y install VirtualBox akmod-Virtualbox
@@ -280,7 +280,6 @@ Sandbox - manual preparation
  VMHOME="$HOME/vm"
  VMOSTYPE="Windows7_64"
 
- vboxmanage list ostypes
  vboxmanage createvm --name "$VM" --ostype "$VMOSTYPE" --register --basefolder "$VMHOME"
  vboxmanage createhd --filename $VMHOME/$VM/$VM.vdi --size 25600
  vboxmanage storagectl "$VM" --name IDE --add ide
@@ -385,13 +384,13 @@ Known Issues
    -> check that you do not have some funky http_proxy settings
 
 - malboxes build of Windows 7 hangs forever
-   -> yes there is something broken now in the Autounnatend.xml for Win7
-   build W10 32/64 machine instead
+   -> yes there is something broken now in the Autounnatend.xml for Win7.
+   Build the W10 32/64 machine instead for now.
 
 
 - malboxes build of Windows 10 breaks on chocolatey package xyz 
    -> try again, packages are downloaded on fly and sometimes it fails even for working packages
-or build W7 machine manually
+    or build W7 machine manually
 
 - Capturebat doesn't start on W10
    -> limited functionality works on W7
