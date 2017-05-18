@@ -19,7 +19,7 @@ exe2aut
 for MODULE in $MODULES ; do
 	LETTER1=`echo "$MODULE" | cut -c 1`
 	if [ -f "${PKGSTORE}/${LETTER1}/${MODULE}/${DOWNFILE}" ] ; then
-		./download.sh "${PKGSTORE}/${LETTER1}/${MODULE}/${DOWNFILE}"
+		./download.sh "${MODULE}"
 	fi
 done
 
