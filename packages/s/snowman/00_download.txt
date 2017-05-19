@@ -1,0 +1,2 @@
+9234b0f28a7728fadf1c3d00f6a876598c97b4bb5c0d06c6c2a23133a4655085	https://derevenets.com/files/snowman-v0.1.0-win-x64.7z
+fef6d19f991677b6710d1a199b82bfc2d9f12b82209fb933eb2bc951bbf35771	https://derevenets.com/files/snowman-v0.1.0-win-x86.7z
