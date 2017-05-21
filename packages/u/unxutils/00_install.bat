@@ -6,7 +6,7 @@ set TARGET=%DESTDIR%unxutils
 
 if exist "%TARGET%" goto END
 
-reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v PATH /d "%PATH%;%TARGET%" /f^M
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Environment" /v PATH /d "%PATH%;%TARGET%" /f
 
 echo ===== unpack the main unxutils package
 7z x -aoa -o%TARGET% UnxUtils.zip
