@@ -1,0 +1,2 @@
+# http://ntinfo.biz/index.php/detect-it-easy/
+518c4601e6f50ae4801dc9aef7f87a0fb091433531ce84f66457129204b06d3f	https://github.com/horsicq/DIE-engine/releases/download/1.01/DIE_1.01_win.zip
