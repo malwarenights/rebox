@@ -3,7 +3,7 @@ pushd "%~dp0"
 
 set DESTDIR=c:\software\
 set TARGET=%DESTDIR%unxutils
-set PACKAGE=upx393w.zip
+set PACKAGE=upx394w.zip
 
 if exist "%TARGET%\upx.exe" goto END
 
