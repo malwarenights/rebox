@@ -4,13 +4,14 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\arkdasm"
-set PACKAGE=arkdasm-1.1.0.zip
+set TARGET="%SOFTWARE%\ollydbg"
+set PACKAGE=odbg110.zip
 
 if exist "%TARGET%" goto END
 
 echo ==== Installing %~dp0%PACKAGE% to %TARGET%
-7z x %PACKAGE% -o%SOFTWARE%
+7z x %PACKAGE% -o%TARGET%
+del "%TARGET%\PSAPI.DLL"
 
 :END
 popd

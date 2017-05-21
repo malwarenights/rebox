@@ -1,4 +1,4 @@
 # Presentation:
 #	https://www.youtube.com/watch?v=Wuy_Pm3KaV8
 #
-https://download.sysinternals.com/files/SysinternalsSuite.zip
+8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip

@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/MalWerewolf/autobreak-api/master/autobreak-api.py
+https://takahiroharuyama.github.io/downloads/scripts/blackmanta.py
+http://www.gironsec.com/code/joebp.py
+https://github.com/corelan/mona/raw/master/mona.py
+https://takahiroharuyama.github.io/downloads/scripts/plugx_dumper.py
+#http://www.woodmann.com/collaborative/tools/index.php/PE_Dumper
+http://www.woodmann.com/collaborative/tools/images/Bin_PE_Dumper_2008-4-3_15.17_OllyDbg_PE_Dumper_v3.03.rar
+

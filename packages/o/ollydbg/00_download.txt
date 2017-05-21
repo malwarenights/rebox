@@ -1,5 +1,6 @@
-http://www.ollydbg.de/odbg110.zip
-http://www.ollydbg.de/odbg108b.zip
-http://www.ollydbg.de/plug110.zip
-http://www.ollydbg.de/disasm.zip
-http://www.ollydbg.de/cmdline.zip
+73b1770f28893dab22196eb58d45ede8ddf5444009960ccc0107d09881a7cd1e	http://www.ollydbg.de/odbg110.zip
+05a59418a9cf2fba05f6bd48ef33629a71989020716bf2c264bfbc7b57046b77	http://www.ollydbg.de/odbg108b.zip
+6ca41f1353555e59a0bf9596efafe1ddcb9acead32501224e34b774cc9d7700d	http://www.ollydbg.de/plug110.zip
+2c55b232af6450e3baf81be3b57ab7215cb8ddd2c7fb64fff51410486bee3564	http://www.ollydbg.de/disasm.zip
+caef5f5be95f76f45cb863bdd7e094e2677d892b3a4d31f4feb819bd4bea27f9	http://www.ollydbg.de/cmdline.zip
+

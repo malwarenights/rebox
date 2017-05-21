@@ -12,4 +12,5 @@
 # Dark Theme
 # https://github.com/ThunderCls/x64dbg_vs_dark
 # https://gist.githubusercontent.com/ThunderCls/4dcc4b8c1cace8c9cae5612fc696d465/raw/59c9bfdc208bc444f189f55b6758cfb3ad97df5a/visual_studio_dark_theme.ini
-d9e7367c307181828befd61dae86ac662a268a51a54dde786a48d1205df95d70	https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2017-05-09_22-02.zip
+# d9e7367c307181828befd61dae86ac662a268a51a54dde786a48d1205df95d70	https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2017-05-09_22-02.zip
+98f980214d833a70fd605d899b080b11f53423256408da7825125e08c3b188cd	https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2017-05-17_01-24.zip
