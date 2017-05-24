@@ -79,7 +79,7 @@ while IFS="	" read HASH URL FILE ; do
 
 		#Sourceforge allows direct download for wget
 		if [ $? -eq 0 ] ; then
-			OPTS="--useragent=wget"
+			OPTS="--user-agent=Wget/1.18 (linux-gnu)"
 		fi
 
 		echo "$URL" | grep -e 'oracle.com' > /dev/null
