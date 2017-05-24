@@ -1,4 +1,5 @@
 # https://inguma.eu/projects/bokken
 # http://bokken.radare.org/
 # https://github.com/radare/bokken
-https://inguma.eu/attachments/download/213/bokken-1.8-win32.exe
+
+1c7b52d9744ccacde0c0acb093d4cc95e3ecab99a5304c6168da255bb36bd9fd	https://inguma.eu/attachments/download/213/bokken-1.8-win32.exe

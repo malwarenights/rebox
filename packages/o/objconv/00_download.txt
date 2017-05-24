@@ -1,2 +1,4 @@
-#http://www.agner.org/optimize/#objconv
-http://www.agner.org/optimize/objconv.zip
+# Objconv library to convert between PE/COFF, ELF, Macho
+# http://www.agner.org/optimize/#objconv
+#
+fbb50d84279ed6f38304cd199f56a2ef46cebf136c2611078b97ec2b3f3ce636	http://www.agner.org/optimize/objconv.zip	objconv-2.44.zip

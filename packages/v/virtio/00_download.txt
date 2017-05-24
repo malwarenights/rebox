@@ -1,1 +1,5 @@
-https://fedoraproject.org/wiki/Windows_Virtio_Drivers
+# https://fedoraproject.org/wiki/Windows_Virtio_Drivers
+# Needed for sandboxing of Windows in KVM
+39890b158664fbfe080ed880a61a81d20c80e0b8762febb8f8e09a82be65dd38	https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso	virtio-win-0.1.126.iso
+
+
