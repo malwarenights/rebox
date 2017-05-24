@@ -1,0 +1,4 @@
+2833ef2a9c06a16bc532d92c9e748125684f8f531c15608484758e0ea8dc2b7a	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-win32.zip
+94cb6a3cf8c83f3da8abe141a068a5962f0407beb0943bfc98223a25dfb704d0	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-win64.zip
+5c11beb6d322e36b6a88e2012675b6b643664a89b064f79d10c44a1f0f684d84	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-python-win32.msi
+9ed4ac788a78a5a45568bd751f90c8509b5e1b1061045cb0c96937b73a4fedef	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-python-win64.msi
