@@ -7,8 +7,8 @@ echo ==== Disable UAC
 
 
 echo ==== Mount the shares from the VirtualBox
-net use r: \\vboxsvr\share_ro
-net use w: \\vboxsvr\share_rw
+net use r: \\vboxsvr\share_ro /persistent:yes
+net use w: \\vboxsvr\share_rw /persistent:yes
 
 echo ==== Create couple of user identities
 net user admin01 admin01 /add
@@ -47,6 +47,8 @@ bcdedit /debug {current} ON
 bcdedit /set {current} debugtype SERIAL
 bcdedit /set {current} debugport 1
 bcdedit /set {current} baudrate 115200
+bcdedit /timeout 4
+
 
 echo ==== Enable users to RDP
 wmic rdpermissions where TerminalName="RDP-Tcp" CALL AddAccount "%USERNAME%",1
