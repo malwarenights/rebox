@@ -3872,6 +3872,13 @@ vboxmanage snapshot 'rebox_w10_x64' take 'baseline_on'</code></pre>
 </div>
 </div>
 <div class="sect1 slide">
+<h1 id="_demo">DEMO</h1>
+<div class="sectionbody" style="max-width:45em">
+<div class="paragraph"><p>Here is asciinema demo of the maboxes installation and download of the software by rebox scripts.</p></div>
+<script type="text/javascript" src="https://asciinema.org/a/28poqw1ms1kn2e183yyzghict.js" id="asciicast-28poqw1ms1kn2e183yyzghict" async></script>
+</div>
+</div>
+<div class="sect1 slide">
 <h1 id="_foreword">FOREWORD</h1>
 <div class="sectionbody" style="max-width:45em">
 <div class="paragraph"><p>Dear colleagues,
@@ -3981,7 +3988,7 @@ REMnux virtual appliance - <a href="https://remnux.org/#distro">https://remnux.o
 </li>
 <li>
 <span>
-<em>malboxes</em> tool from GoSecure (or you can install the virtual box manually)
+<em>malboxes</em> tool from GoSecure (or you can install the virtual machine manually)
 </span>
 </li>
 <li>
@@ -4232,7 +4239,7 @@ Builds will be created in ~/.cache/malboxes/boxes
 <ul class="">
 <li>
 <span>
-use virtual box
+use <em>virtualbox</em>
 </span>
 <div class="listingblock">
 <div class="content">
@@ -4296,8 +4303,11 @@ create new virtual machine
 <div class="content">
 <pre><code>VM=rebox_w7_64
 VMHOME="$HOME/vm"
-vboxmanage list ostypes
-vboxmanage createvm --name "rebox_w7_64" --ostype "Windows7_64" --register --basefolder "$VMHOME"
+VMOSTYPE="Windows7_64"</code></pre>
+</div></div>
+<div class="listingblock">
+<div class="content">
+<pre><code>vboxmanage createvm --name "$VM" --ostype "$VMOSTYPE" --register --basefolder "$VMHOME"
 vboxmanage createhd --filename $VMHOME/$VM/$VM.vdi --size 25600
 vboxmanage storagectl "$VM" --name IDE --add ide
 vboxmanage storageattach "$VM" --storagectl IDE --port 0 --device 0 --type hdd \
@@ -4485,26 +4495,64 @@ check that you can start Immunity Debugger and open some 32bit executable for ex
 <div class="sect1 slide">
 <h1 id="_known_issues">Known Issues</h1>
 <div class="sectionbody" style="max-width:45em">
-<div class="paragraph"><p>1) Virtualbox can&#8217;t be installed by dnf on fedora
-   &#8594; check that you added the rpmfusion repository</p></div>
-<div class="paragraph"><p>2) Virtualbox doesn&#8217;t start
-   &#8594; please make sure the kernel modules are compiled well (akmods command)</p></div>
-<div class="paragraph"><p>3) Nokogiri fails to build
-   &#8594; you are missing zlib-deve</p></div>
-<div class="paragraph"><p>4) gem install winrm fails
-   &#8594; use version 1.8.1</p></div>
-<div class="paragraph"><p>5) "vagrant up" fails with funky message
-   &#8594; check that you do not have some funky http_proxy settings</p></div>
-<div class="paragraph"><p>6) malboxes build of Windows 7 hangs forever
-   &#8594; yes there is something broken now in the Autounnatend.xml for Win7
-   build W10 32/64 machine instead</p></div>
-<div class="paragraph"><p>7) malboxes build of Windows 10 breaks on chocolatey package xyz
+<ul class="">
+<li>
+<span>
+Virtualbox can&#8217;t be installed by dnf on fedora
+   &#8594; check that you added the rpmfusion repository
+</span>
+</li>
+<li>
+<span>
+Virtualbox doesn&#8217;t start
+   &#8594; please make sure the kernel modules are compiled well (akmods command)
+</span>
+</li>
+<li>
+<span>
+Nokogiri fails to build
+   &#8594; you are missing zlib-deve
+</span>
+</li>
+<li>
+<span>
+gem install winrm fails
+   &#8594; use version 1.8.1
+</span>
+</li>
+<li>
+<span>
+"vagrant up" fails with funky message
+   &#8594; check that you do not have some funky http_proxy settings
+</span>
+</li>
+<li>
+<span>
+malboxes build of Windows 7 hangs forever
+   &#8594; yes there is something broken now in the Autounnatend.xml for Win7.
+   Build the W10 32/64 machine instead for now.
+</span>
+</li>
+<li>
+<span>
+malboxes build of Windows 10 breaks on chocolatey package xyz
    &#8594; try again, packages are downloaded on fly and sometimes it fails even for working packages
-or build W7 machine manually</p></div>
-<div class="paragraph"><p>8) Capturebat doesn&#8217;t start on W10
-   &#8594; limited functionality works on W7</p></div>
-<div class="paragraph"><p>8) ImmunityDebugger / OllyDbg can&#8217;t see/run/trace some binaries
-   &#8594; yes both are 32 only, use windbg, x96dbg or radare2 for 64bit binaries</p></div>
+    or build W7 machine manually
+</span>
+</li>
+<li>
+<span>
+Capturebat doesn&#8217;t start on W10
+   &#8594; limited functionality works on W7
+</span>
+</li>
+<li>
+<span>
+ImmunityDebugger / OllyDbg can&#8217;t see/run/trace some binaries
+   &#8594; yes both are 32 only, use windbg, x96dbg or radare2 for 64bit binaries
+</span>
+</li>
+</ul>
 </div>
 </div>
 </body>

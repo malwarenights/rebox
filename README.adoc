@@ -36,6 +36,14 @@ TLTR - Too lazy to read Install Guide
  # snapshot #2 - to have fast startup
  vboxmanage snapshot 'rebox_w10_x64' take 'baseline_on'
 
+DEMO 
+----
+Here is asciinema demo of the maboxes installation and download of the software by rebox scripts.
+++++
+<script type="text/javascript" src="https://asciinema.org/a/28poqw1ms1kn2e183yyzghict.js" id="asciicast-28poqw1ms1kn2e183yyzghict" async></script>
+++++
+
+
 
 FOREWORD
 --------
