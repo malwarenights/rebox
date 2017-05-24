@@ -3,9 +3,18 @@ pushd "%~dp0"
 
 SET PACKAGE=AcroRdrDC1700920044_en_US.exe
 
-COPY %PACKAGE% %TEMP%\%PACKAGE%
-%TEMP%\%PACKAGE% /msi EULA_ACCEPT=YES /qn
-DEL %TEMP%\%PACKAGE%
+if exist "%TEMP%\%PACKAGE%.token" goto SKIP
+
+COPY %PACKAGE% "%TEMP%\%PACKAGE%"
+"%TEMP%\%PACKAGE%" /msi EULA_ACCEPT=YES /passive
+DEL "%TEMP%\%PACKAGE%"
+
+echo ===Installed=== > "%TEMP%\%PACKAGE%.token"
+
+goto END
+
+:SKIP
+echo === Skiping already installed
 
 :END
 popd

@@ -2,21 +2,22 @@
 
 # ==== .Net 4.0 offline installer
 #WINEARCH=win32 WINEPREFIX=~/.wine32 winetricks -q dotnet40
-http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe
+65e064258f2e418816b304f646ff9e87af101e4c9552ab064bb74d281c38659f	http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe
 
 
 #==== .Net 4.5 offline installer
 # https://www.microsoft.com/en-us/download/details.aspx?id=30653
-http://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotnetfx45_full_x86_x64.exe
+# a04d40e217b97326d46117d961ec4eda455e087b90637cb33dd6cc4a2c228d83	http://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotnetfx45_full_x86_x64.exe
 
 # ==== .Net 4.5.1 offline installer
 # https://www.microsoft.com/en-us/download/details.aspx?id=40779
-https://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe
+# 5ded8628ce233a5afa8e0efc19ad34690f05e9bb492f2ed0413508546af890fe	https://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe
 
 # ==== .Net 4.6.1  offline installer
 # https://www.microsoft.com/en-us/download/details.aspx?id=49982
-https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe
+# beaa901e07347d056efe04e8961d5546c7518fab9246892178505a7ba631c301	https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe
 
 # ==== .Net 4.6.2  offline installer
 # https://www.microsoft.com/en-us/download/details.aspx?id=53344
-https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe
+28886593e3b32f018241a4c0b745e564526dbb3295cb2635944e3a393f4278d4	https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe
+

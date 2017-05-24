@@ -1,18 +1,10 @@
-http://bin.rada.re/radare2-w32-1.5.0-git.zip
-http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe
-http://download.microsoft.com/download/b/a/4/ba4a7e71-2906-4b2d-a0e1-80cf16844f5f/dotnetfx45_full_x86_x64.exe
 	http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-all-in-one-2.24.2.win32-py2.7.msi
 http://sandsprite.com/CodeStuff/PDFStreamDumper_Setup.exe
 https://download-installer.cdn.mozilla.net/pub/firefox/releases/53.0/win32/en-US/Firefox%20Setup%2053.0.exe
 https://download-installer.cdn.mozilla.net/pub/firefox/releases/53.0/win64/en-US/Firefox%20Setup%2053.0.exe
-https://download.microsoft.com/download/1/6/7/167F0D79-9317-48AE-AEDB-17120579F8E2/NDP451-KB2858728-x86-x64-AllOS-ENU.exe
-https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe
-https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe
 https://fedoraproject.org/wiki/Windows_Virtio_Drivers
 https://github.com/0xd4d/dnSpy/releases/download/v3.0.0/dnSpy.zip
 https://github.com/corelan/mona/raw/master/mona.py
-https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-32-bit.exe
-https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe
 https://github.com/processhacker2/processhacker2/releases/download/v2.39/processhacker-2.39-bin.zip
 https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.4.0/sleuthkit-4.4.0-win32.zip
 https://inguma.eu/attachments/download/213/bokken-1.8-win32.exe
@@ -25,6 +17,7 @@ http://www.gironsec.com/code/joebp.py
 http://www.nerdbucket.com/mirrors/myAutToExe2_00_Alpha_AutoIt3_Decompiler_opensource.zip
 http://www.woodmann.com/collaborative/tools/images/Bin_PE_Dumper_2008-4-3_15.17_OllyDbg_PE_Dumper_v3.03.rar
 2d81ce97318b41461425401292b91723d5454fe7eadbb02c6fc13d2356d54794	http://145.130.102.57/domoticx/software/exe2aut/Exe2Aut%20v0.10.0.0%20%282014-01-09%29.7z
+e001a03a10cf54c23a35ebfc4aae00e23a4eec08705ef7b2dca4da209e8e843c	http://bin.rada.re/radare2-w32-1.5.0-git.zip
 ac6578338dde627e3a10e6eba573527f8ce491187c8a1319733fc9bc8c554d07 http://debugger.immunityinc.com/LICENSE.txt
 fb83c6491690402273d42a3335777e77ea29328f5fe8503ff6f5ef62833d1fbc	http://didierstevens.com/files/software/AnalyzePESig_V0_0_0_1.zip
 e0d43e04afd242307e3e6b675a650952d2605f45fe55f0b883acf5b22ba32a01	http://didierstevens.com/files/software/AnalyzePESig_V0_0_0_2.zip
@@ -84,7 +77,7 @@ f95453de1cc5855c320ab947d9ae354be8e3abfa52418c0cf623351a9dbf6344	http://didierst
 11a9b5d47657c123845007e3e29fb331cae7483b6a4a3ac54276db90116911b5	http://didierstevens.com/files/software/decode-vbe_V0_0_1.zip
 91a7465fe1f4d291751e6c5d88c51888c914b40c6f187709e33343ff121a116f	http://didierstevens.com/files/software/decode-vbe_V0_0_2.zip
 056ab8ba7f3b2b52f8c7bfc2959d7f1ae3feac4be90c675b2dff6b521225d93e	http://didierstevens.com/files/software/defuzzer_v0_0_2.zip
-cc36b30b8e3974bc8c1552acde5f00c19a07d8fa9cb171fddc4ee4728817c105	http://didierstevens.com/files/software/DidierStevensSuite.zip
+ba2856e6c437ec37247223cedb84ddb528a31cbe3cbbdd1845a5d5e3d56cdda0	http://didierstevens.com/files/software/DidierStevensSuite.zip
 c5fce76443549c3a8882b799b6f7a754ef6aee5f11f3e94ff255ee541205c17b	http://didierstevens.com/files/software/disinformational-tweets_v0_0_1.zip
 075ced9fdd633a6d0a11029107206f845af055afc3872e7d82801a1d83aed64f	http://didierstevens.com/files/software/disitool_v0_2.zip
 aef923f49e53c7c2194058f34a73b293d21448deb7e2112819fc1b3b450347b8	http://didierstevens.com/files/software/disitool_v0_3.zip
@@ -403,6 +396,7 @@ a575d77d96c089cda54e9ec2054b200b6c50830206e2498d40d9a0333a60f52c	http://didierst
 b924ad8062eaf4e70437c8be50fa612162795ff0839479546ce907ffa8d6e386	http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe	2012_vcredist_x86-11.0.61030.exe
 0551a61c85b718e1fa015b0c3e3f4c4eea0637055536c00e7969286b4fa663e0	http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE	2005_vcredist_x64-6.00.2900.2180.exe
 4ee4da0fe62d5fa1b5e80c6e6d88a4a2f8b3b140c35da51053d0d7b72a381d29	http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE	2005_vcredist_x86-6.00.2900.2180.exe
+65e064258f2e418816b304f646ff9e87af101e4c9552ab064bb74d281c38659f	http://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe
 c6cd2d3f0b11dc2a604ffdc4dd97861a83b77e21709ba71b962a47759c93f4c8	http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe	2010_vcredist_x64-10.0.40219.01.exe
 66b797b3b4f99488f53c2b676610dfe9868984c779536891a8d8f73ee214bc4b	http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe	2010_vcredist_x86-10.0.40219.1.exe
 df39112240957b1ddb2469f0cfa1a221e4a7582f403c1fb98ca52b6c677427ba	http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-windows-i586.exe
@@ -429,25 +423,33 @@ b811f2c047a3e828517c234bd4aa4883e1ec591d88fad21289ae68a6915a6665	https://downloa
 6b3e4c51c6c0e5f68c8a72b497445af3dbf976394cbb62aa23569065c28deeb6	https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe	2008_vcredist_x86-9.0.30729.5677.exe
 da66717784c192f1004e856bbcf7b3e13b7bf3ea45932c48e4c9b9a50ca80965	https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x64.exe	2015_vcredist_x64-14.0.24215.1.exe
 12a69af8623d70026690ba14139bf3793cc76c865759cad301b207c1793063ed	https://download.microsoft.com/download/6/A/A/6AA4EDFF-645B-48C5-81CC-ED5963AEAD48/vc_redist.x86.exe	2015_vcredist_x86-14.0.24215.1.exe
+28886593e3b32f018241a4c0b745e564526dbb3295cb2635944e3a393f4278d4	https://download.microsoft.com/download/F/9/4/F942F07D-F26F-4F30-B4E3-EBD54FABA377/NDP462-KB3151800-x86-x64-AllOS-ENU.exe
 0acfb8ba01b6ec1c73c83b802acaa672566d974d4d6af4101571bb46561d1a85	https://downloadmirror.intel.com/19059/a08/PROWin32.exe	x
 85164df85a66785faa52c016414076dc8cf7a6463de7781878bf3875baf4a167	https://downloadmirror.intel.com/19059/a08/PROWinx64.exe	x
 2c16c24866b3016405b1b49a086c4e276d29cfedbf5bba2a47d54db6a2a5731c	https://downloads.sourceforge.net/project/hjt/2.0.4/HijackThis.exe	HijackThis-2.0.4.exe
 98f980214d833a70fd605d899b080b11f53423256408da7825125e08c3b188cd	https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2017-05-17_01-24.zip
-8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
-a2bf83dbcea97db6d8150d7f545d47bb8af7b5204c3cfbbf94d6203fe5951cc4	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ax.exe
-ea80a074018b4de6217a04745b82190957f648246bc94919e9fafb5e5c00ae97	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player.exe
-93c9fa8e5a7da41c3b8257660e4fcdeb7d5105220073bd3fb22e93c6917736cc	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ppapi.exe
+f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
+5d7e8f16effb5c41a4f0440e51b24e0631592ac89254b1355e4ed82a2f978656	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.171/install_flash_player_ax.exe
+ded49dda9d3934a8bb45e8d5232f64f61c0c50d19f2b99b9a738b34f4c8fb955	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.171/install_flash_player.exe
+6394110eac0bdd5a4712a84dd985cfafd9d026b3c4983b54fdd36c6120b07cec	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.171/install_flash_player_ppapi.exe
+5c11beb6d322e36b6a88e2012675b6b643664a89b064f79d10c44a1f0f684d84	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-python-win32.msi
+9ed4ac788a78a5a45568bd751f90c8509b5e1b1061045cb0c96937b73a4fedef	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-python-win64.msi
+2833ef2a9c06a16bc532d92c9e748125684f8f531c15608484758e0ea8dc2b7a	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-win32.zip
+94cb6a3cf8c83f3da8abe141a068a5962f0407beb0943bfc98223a25dfb704d0	https://github.com/aquynh/capstone/releases/download/3.0.5-rc2/capstone-3.0.5-rc2-win64.zip
+a1b45272f2e30a3545b96086ccf5a56a4154a47898a7d1d6803d51440236b3b5	https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-32-bit.exe
+6b298c597ffe960bec84d52fc15438d0ff61a24ac9de1c17433878ef656d50c8	https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe
+518c4601e6f50ae4801dc9aef7f87a0fb091433531ce84f66457129204b06d3f	https://github.com/horsicq/DIE-engine/releases/download/1.01/DIE_1.01_win.zip
 d5e85933e74e5ba6a73f67346bc2e765075d26949c831a428166c92772f67dbc	https://github.com/jessek/hashdeep/releases/download/v4.4/md5deep-4.4.zip
-5e956a7ff532e64f27edf00ca40d62ec136dd5c837f72430cfb20e76ac1897ac	https://github.com/upx/upx/releases/download/v3.94/upx394w.zip
+74308db1183436576d011bfcc3e7c99c836fb052de7b7eb0539026366453d6e8	https://github.com/upx/upx/releases/download/v3.94/upx394w.zip
 c59a2b8ba98d0bb849e55aa8ad1cfc9af54ed9acc1a087a43033e23bebedc0e8	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.exe
 656e7a31ee07d7febcb49822dd166cb72afe23d4dccf546f2c6b45bcd959e5a1	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.x64.exe
 c4878e900f17f2051dd70e1bd280be99547c8f1c4fb846fe5306d326995bc6be http://sourceforge.net/projects/hte/files/ht-bin-win32/ht-2.1.0-win32.exe ht-2.1.0-win32.exe
 3340c205f858d92d95f7d050b1c1306149e025baafcec184ceebd74d841e92a4	https://the.earth.li/~sgtatham/putty/latest/w32/putty.zip	putty-0.69.zip
 64ef202b89edd2b3d10f3b631edb57026e4d240786463a1825599eb9c61fdf72	https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe	x# http://www.arkdasm.com/download.html
-240fb9a6a0c8aeed51314a783e38565e1f966c21fa282e53541d33edf4b3b730	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB1fwgyHEg3MFrdMff06ecBa/yara-python-3.5.0.0.win32-py2.7.exe?dl=1	yara-python-3.5.0.0.win32-py2.7.exe
-98f76300aacfb5a0bfa3c35fc412f27f8d79419662ba46c9ea6e8e5bd2e074c7	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB8vUvjkYEHaJ61vheArqZ-a/yara-3.5.0-win32.zip?dl=1	yara-3.5.0-win32.zip
-76a376db1adc20d7699eff85b32554caa36c3561c85555bd9a057dfb8c1ede20	https://www.dropbox.com/sh/umip8ndplytwzj1/AADd8NgcEPQo9ecirl3bnhFIa/yara-3.5.0-win64.zip?dl=1	yara-3.5.0-win64.zip
-c0b2b3b2ffed369cab27845d83cdde352ce776f42a60c6b2bfdfab8fc011952d	https://www.dropbox.com/sh/umip8ndplytwzj1/AADYYKc5uvGuWDeWLlDBHg3Ka/yara-python-3.5.0.0.win-amd64-py2.7.exe?dl=1	yara-python-3.5.0.0.win-amd64-py2.7.exe
+2f0137a51743faa79c092fc1cd11c2de456b5c2d388744792f7f764764538359	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAbhiSoApsa1-A6y3KA1qaoa/yara-3.6.0-win32.zip?dl=1	yara-3.6.0-win32.zip
+5913edbe2e1cf27f227d9121d527fd31a1c4f80cbfee8c24a9011d2b8ea22991	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAJJa89vpOQLW7bpB4SKAHra/yara-python-3.6.0.win-amd64-py2.7.exe?dl=1	yara-python-3.6.0.win-amd64-py2.7.exe
+921533349c45e93e93354e235c4bef8602a6d6c9b0a3189dda2161c23e878f02	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAPo79rPe7AP0vR7TpHhjwva/yara-3.6.0-win64.zip?dl=1	yara-3.6.0-win64.zip
+3b5c84ee704c294c5fe333f4b239a551dcdcdd697f67c04a3a5860e05a0f3855	https://www.dropbox.com/sh/umip8ndplytwzj1/AACed5oEMWgm-mm0G3GcFnVQa/yara-python-3.6.0.win32-py2.7.exe?dl=1	yara-python-3.6.0.win32-py2.7.exe
 c91e50a921f07eb7ce510441761daf38f3e4e6340cf9faf67e660a3d13bd88e8	https://www.honeynet.org/files/CaptureBAT-Setup-2.0.0-5574.exe
 8b3e65fc1aad8809bb69477e922c3609a8e8fa9e2f6d5ab8f00f3553e3c61d7a	https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi
 44ea95356365195b18a5058796285789b0bfc94da1ee2ec1cb8e0a1c2ff6017a	https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi
@@ -459,7 +461,7 @@ dbb2b11dea9f4432291e2cbefe14ebe05e021940e983a37e113600eee55daa95	http://www.7-zi
 x http://www.nasm.us/pub/nasm/releasebuilds/2.13/win32/nasm-2.13-win32.zip
 x http://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-win64.zip
 f7bf37b5f9a413cefcfef1928675b68481e9fb4c54277e63cd8519e0e1bcdf9f	http://www.nfllab.com/sums/sums611.zip	sums-6.11.zip
-3b19cd1ab1bf8ffec404c28ff952e2b811d45abe4290d521932a003fdfd4bbde  	http://www.nfllab.com/sums/sums.zip	sums-6.9.zip
+3b19cd1ab1bf8ffec404c28ff952e2b811d45abe4290d521932a003fdfd4bbde	http://www.nfllab.com/sums/sums.zip	sums-6.9.zip
 94f4348ec573b05990b1e19542986e46dc30a87870739f5d5430b60072d5144d http://www.ntcore.com/files/ExplorerSuite.exe
 caef5f5be95f76f45cb863bdd7e094e2677d892b3a4d31f4feb819bd4bea27f9	http://www.ollydbg.de/cmdline.zip
 2c55b232af6450e3baf81be3b57ab7215cb8ddd2c7fb64fff51410486bee3564	http://www.ollydbg.de/disasm.zip
@@ -469,3 +471,4 @@ caef5f5be95f76f45cb863bdd7e094e2677d892b3a4d31f4feb819bd4bea27f9	http://www.olly
 c1de44867ea1bbb8d7400fcc5f154cc9c9e3c21dde277b409e713baafac6a7d8	http://www.procdot.com/download/procdot/binaries/procdot_1_2_55_windows.zip
 8e84654a038ce987ac73bfdf1db2c2e38c1153c6edde30e9dd2752fa8ae4c188	http://www.woodmann.com/collaborative/tools/images/Bin_ImpREC_2011-7-16_8.11_ImpREC_1.7e.rard5e42b90024e3cdc047ee55269a057f24ffffb0d5f420d9c544e81e3622774fe	https://github.com/icsharpcode/ILSpy/releases/download/v2.4/ILSpy_Master_2.4.0.1963_Binaries.zip
 64a94a6a415bd01ac6ab1df49b8dcb880ec2cf0f8bfac4aaaf2423bfd673678d	http://www.woodmann.com/collaborative/tools/images/Bin_LordPE_2010-6-29_3.9_LordPE_1.41_Deluxe_b.zip
+67a0fe273a7273963fac97b808530b7a1d8088af350a06ed755d72c7eaab2de0  PEiD-0.95-20081103.zip

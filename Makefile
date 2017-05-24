@@ -5,3 +5,6 @@ README.html: README.adoc
 
 all: README.html
 	find ./ -name '*.bat' -exec unix2dos '{}' ';'
+	find ./ -type f | grep -R -E '[0-9a-fA-F]{64}'
+	./gen_summary.sh
+

@@ -1,1 +1,7 @@
-ac6578338dde627e3a10e6eba573527f8ce491187c8a1319733fc9bc8c554d07 http://debugger.immunityinc.com/LICENSE.txt
+# Please Download the Immunity Debugger manually
+# this download requires registration and is protected by the Anti-CSRF token
+# Download site:
+# http://www.immunityinc.com/products/debugger/
+# http://debugger.immunityinc.com/ID_register.py
+ac6578338dde627e3a10e6eba573527f8ce491187c8a1319733fc9bc8c554d07	http://debugger.immunityinc.com/LICENSE.txt
+9c15cd47d018ccd99a6c8865baba20134c67061ae0e19232c32ecd0139ccfd42	http://debugger.immunityinc.com/getID.py	ImmunityDebugger_1_85_setup.exe
