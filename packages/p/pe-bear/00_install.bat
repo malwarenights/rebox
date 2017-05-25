@@ -2,9 +2,9 @@
 pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=%SystemDrive%\software)
-set TARGET=%SOFTWARE%\far
-set PACKAGE32=Far30b4900.x86.20170221.7z
-set PACKAGE64=Far30b4900.x64.20170221.7z
+set TARGET=%SOFTWARE%\pe-bear
+set PACKAGE32=PE-bear_x86_0.3.7.zip
+set PACKAGE64=PE-bear_x64_0.3.7.zip
 
 if exist "%TARGET%" goto END
 

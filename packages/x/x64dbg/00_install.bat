@@ -5,7 +5,7 @@ pushd "%~dp0"
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
 set TARGET="%SOFTWARE%\x64dbg"
-set PACKAGE=snapshot_2017-05-09_22-02.zip
+set PACKAGE=snapshot_2017-05-17_01-24.zip
 
 if exist "%TARGET%" goto END
 

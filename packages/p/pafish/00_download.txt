@@ -1,0 +1,3 @@
+# Paranoid fish - test the hardening of the sandbox
+
+5bff4c888745fcbf64aa2dcdfe744e249a7e9283e2cdeacc93fae4a4b168d42b	https://github.com/a0rtega/pafish/archive/v0.5.8.zip	pafish-0.5.8.zip

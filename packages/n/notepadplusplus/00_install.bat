@@ -2,7 +2,7 @@
 pushd "%~dp0"
 
 set TARGET=c:\software\notepad++
-set PACKAGE32=npp.7.1.Installer.exe
+set PACKAGE32=npp.7.3.3.Installer.exe
 
 
 if exist "C:\%TARGET%" goto END
