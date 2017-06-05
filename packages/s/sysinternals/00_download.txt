@@ -1,5 +1,9 @@
 # Presentation:
-#	https://www.youtube.com/watch?v=Wuy_Pm3KaV8
+#	Mark Russinovich - sysinternals - https://www.youtube.com/watch?v=Wuy_Pm3KaV8
+#			 - sysmon	- https://www.youtube.com/watch?v=PLKFCWBswe0
+#	https://github.com/SwiftOnSecurity/sysmon-config
+#	https://www.youtube.com/watch?v=8qDEbnofkos
 #
-# 8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
 f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
+
+# 8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
