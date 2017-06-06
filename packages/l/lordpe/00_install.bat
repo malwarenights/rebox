@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\lordpe"
+set TARGET=%SOFTWARE%\lordpe
 set PACKAGE=Bin_LordPE_2010-6-29_3.9_LordPE_1.41_Deluxe_b.zip
 
 if exist "%TARGET%" goto END

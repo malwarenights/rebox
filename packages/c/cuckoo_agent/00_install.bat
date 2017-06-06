@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\cuckoo_agent"
+set TARGET=%SOFTWARE%\cuckoo_agent
 
 if exist "%TARGET%" goto END
 

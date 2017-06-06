@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\putty"
+set TARGET=%SOFTWARE%\putty
 set PACKAGE=putty-0.69.zip
 
 if exist "%TARGET%" goto END

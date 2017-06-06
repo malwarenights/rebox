@@ -3,7 +3,7 @@ pushd "%~dp0"
 
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET="%SOFTWARE%\yara"
+set TARGET=%SOFTWARE%\yara
 set PACKAGE32=yara-3.6.0-win32.zip
 set PACKAGE64=yara-3.6.0-win64.zip
 

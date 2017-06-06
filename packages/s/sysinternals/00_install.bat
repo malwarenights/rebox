@@ -3,7 +3,7 @@ pushd "%~dp0"
 
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET="%SOFTWARE%\sysinternals"
+set TARGET=%SOFTWARE%\sysinternals
 set PACKAGE=SysinternalsSuite-20170517.zip
 
 

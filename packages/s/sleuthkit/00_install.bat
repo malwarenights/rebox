@@ -3,7 +3,7 @@ pushd "%~dp0"
 
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET="%SOFTWARE%\sleuthkit-4.4.0"
+set TARGET=%SOFTWARE%\sleuthkit-4.4.0
 set PACKAGE32=sleuthkit-4.4.0-win32.zip
 
 

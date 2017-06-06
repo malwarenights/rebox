@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\ollydbg2"
+set TARGET=%SOFTWARE%\ollydbg2
 set PACKAGE=odbg201.zip
 
 if exist "%TARGET%" goto END

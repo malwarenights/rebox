@@ -3,11 +3,12 @@ pushd "%~dp0"
 
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET=%SOFTWARE%\capstone
-set PACKAGE32=capstone-3.0.5-rc2-python-win32.msi
-set PACKAGE64=capstone-3.0.5-rc2-python-win64.msi
+set TARGET=%SOFTWARE%\wireshark
+set PACKAGE32=Wireshark-win32-2.2.7.exe
+set PACKAGE64=Wireshark-win64-2.2.7.exe
 
 if exist "%TARGET%" goto END
+
 
 @rem Check the architecture
 reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x86" > NUL && set OS=32BIT || set OS=64BIT

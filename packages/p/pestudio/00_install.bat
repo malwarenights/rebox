@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\pestudio"
+set TARGET=%SOFTWARE%\pestudio
 set PACKAGE=pestudio.zip
 
 if exist "%TARGET%" goto END

@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\peid"
+set TARGET=%SOFTWARE%\peid
 set PACKAGE=PEiD-0.95-20081103.zip
 
 if exist "%TARGET%" goto END

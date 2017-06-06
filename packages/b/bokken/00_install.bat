@@ -1,7 +1,8 @@
 @echo off
 pushd "%~dp0"
 
-set TARGET=c:\software\bokken
+if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
+set TARGET=%SOFTWARE%\bokken
 set PACKAGE=bokken-1.8-win32.exe
 
 if exist %TARGET% goto END
