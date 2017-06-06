@@ -14,10 +14,12 @@ a37f97e6bbfa2e0c52bb422c8d27d9fe9642897257dcd02f1df4f2b0be47ee45	http://www.ampl
 2b4796b1bc7c7c57eac8392987506246d7e79d1bc7d2da1d7f30b42f1db7430c	http://www.ampliasecurity.com/research/wce_v1_21_x64.tgz
 099e55d14489dafd73cfdfa5499d3104b38a4256c3df9a93abae54beaa077d30	http://www.ampliasecurity.com/research/wce_v1_2.tgz
 099e55d14489dafd73cfdfa5499d3104b38a4256c3df9a93abae54beaa077d30	http://www.ampliasecurity.com/research/wce_v1_2.tgz
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	http://www.ampliasecurity.com/research/wce_v1_2_x64.tgz
 d5947a1b05bc5936dec425b3b826c1e9cea6c3295335bf93a05f071088349b99	http://www.ampliasecurity.com/research/wce_v1_1.tgz
 bef46a63cfdaf23c27a460c9e1f10477767aa84ca2f3b977b9cf032c1aaabf40	http://www.ampliasecurity.com/research/wce_v1.0.tgz
 98959ac10818ecef21d21b1374aac7212697034b677e8becd905f308755f35ee	http://www.ampliasecurity.com/research/WCE_Internals_RootedCon2011_ampliasecurity.pdf
 7471878636a4afac2a6ce710496a560d95bf6311d31635911fc1a9bc63c352a9	http://www.ampliasecurity.com/research/wce12_uba_ampliasecurity_eng.pdf
+
+# Missing
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	http://www.ampliasecurity.com/research/wce_v1_2_x64.tgz
 
 
