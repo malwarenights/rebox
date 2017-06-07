@@ -1,3 +1,6 @@
 # wget -c --restrict-file-names=unix --content-disposition --trust-server-names https://chocolatey.org/api/v2/package/chocolatey/
-230b556c61d3b5d97ba30d4c4877d2ef8d2c353538621f82973c3220e53c116b	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.5.nupkg
+9b4a4e2bf538c4980b1b9f51e5b1383c55f39549eca7a295d44ea6cd7a6e0380	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.6.1.nupkg
+
+# Older packages
+#230b556c61d3b5d97ba30d4c4877d2ef8d2c353538621f82973c3220e53c116b	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.5.nupkg
 

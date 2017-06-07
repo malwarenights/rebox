@@ -42,6 +42,10 @@ echo ==== Disable automatic updates
 reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update" /v AUOptions /t REG_DWORD /d 1 /f
 
 echo ==== Configure kernel mode debugging
+set DEBUGDONE=0
+bcdedit /enum | findstr debugger && set DEBUGDONE=1
+if "%DEBUGDONE%"=="1" goto DEBUGDONE
+
 bcdedit /copy {current} /d "Windows [debugger disabled]"
 bcdedit /debug {current} ON
 bcdedit /set {current} debugtype SERIAL
@@ -50,6 +54,7 @@ bcdedit /set {current} baudrate 115200
 bcdedit /timeout 4
 
 
+:DEBUGDONE
 echo ==== Enable users to RDP
 wmic rdpermissions where TerminalName="RDP-Tcp" CALL AddAccount "%USERNAME%",1
 
@@ -67,4 +72,8 @@ rem ===== Configures Explorer to prevent windows from being automatically arrang
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" /v FullPath /t REG_DWORD /d 0x1 /f
 reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState" /v FullPath /t REG_DWORD /d 0x1 /f
 
+
+echo ==== Install telnet client
+pkgmgr /iu:"TelnetClient"
+pkgmgr /iu:"TFTP"
 
