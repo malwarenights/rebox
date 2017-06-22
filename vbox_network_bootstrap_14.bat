@@ -1,4 +1,4 @@
-@rem Should be executed on guest #3
+@rem Should be executed on guest #4
 netsh interface ip set address "Local Area Connection" static 192.168.100.14 255.255.255.0 192.168.100.1 1
 netsh interface ip set dns "Local Area Connection" static 192.168.100.1
 net use r: \\vboxsvr\share_ro
