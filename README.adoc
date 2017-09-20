@@ -66,7 +66,7 @@ The same tools and techniques are known to work on Debian systems (Ubuntu, Kali 
 Mainly the "dnf/yum install" should be replaced with "apt-get install".
 It would be great if somebody preffering Debian/Ubuntu can test and feedback.
 
-It is possible to use windows as the host system - but be carefull to not execute malware
+It is possible to use windows as the host system - but be careful to not execute malware
 accidentally in your host system.
 
 
@@ -76,7 +76,7 @@ REBOX - Sandbox for Reversing Engineering (Malware)
 
 - For this introductory session of reverse engineering the malware you will need certain tooling.
 
-- There will be not enough time in the class to get this all running and not enough network bandwith so everybody would download everything needed so
+- There will be not enough time in the class to get this all running and not enough network bandwidth so everybody would download everything needed so
 
 - please come with windows virtual machine installed ready to run
 
@@ -142,7 +142,7 @@ http://care.dlservice.microsoft.com/dl/download/2/5/4/254230E8-AEA5-43C5-94F6-88
 * Win7 64bit - SHA1:0bcfc54019ea175b1ee51f6d2b207a3d14dd2b58
  https://www.google.com/search?q=0bcfc54019ea175b1ee51f6d2b207a3d14dd2b58+en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso[en_windows_7_professional_with_sp1_x64_dvd_u_676939.iso]
 
-TIP: You can base the sanbox image also on the MS Virtual machine for testing
+TIP: You can base the sandbox image also on the MS Virtual machine for testing
 - to test how vulnerable it would be to some specific version of Windows + IE/Edge
 
 * https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/linux/
@@ -155,7 +155,7 @@ Malboxes - the automated sandbox preparation - Fedora 25
 --------------------------------------------------------
 
 TIP: It is possible to use https://github.com/GoSecure/malboxes["malboxes"] from GoSecure to automate the base installation of sandbox for you.
-This has the benefit of also automating installation of basic runtime libraries, .Net and essencial packages for you in point and shoot manner.
+This has the benefit of also automating installation of basic runtime libraries, .Net and essential packages for you in point and shoot manner.
 It also install chocolatey package manager to make it easy to install other freeware packages.
 
 - Update the system and reboot with the latest kernel/glibc
@@ -314,14 +314,14 @@ Sandbox - manual preparation
 
  vboxmanage storageattach "$VM" --storagectl "IDE" --port 1 --device 0 --type dvddrive --medium none
 
-- instal esential tools, applications and libraries usually exploited by malware
+- install essential tools, applications and libraries usually exploited by malware
 ( acroread, java jre/jdk, firefox/chrome, flash, office if you want)
 
 - be sure to take the snapshot or cloning a full copy after the base installation
 
  vboxmanage snapshot "$VM" take "baseline"
 
-- be sure to take a snapshot after clean install of sanbox
+- be sure to take a snapshot after clean install of sandbox
 
 
 Post installation
@@ -330,7 +330,7 @@ Post installation
 - after installation you probably would like more tweak on configuration such as autoupdates
   to keep the machine quiet as much as possible
 
-- you might need to do aditional hardening to avoid certain anti-anti-malware checks
+- you might need to do additional hardening to avoid certain anti-anti-malware checks
 
 - host-only networking
   it is recommended to switch to host only networking to have better control over
