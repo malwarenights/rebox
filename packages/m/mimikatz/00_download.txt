@@ -1,0 +1,21 @@
+# https://github.com/gentilkiwi/mimikatz/releases
+
+8872a9d7c021a8ca0770f795a9be53c51c1d1a0f2f3a077aa49a098063dcc337	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170801/mimikatz_trunk.7z	mimikatz-2.1.1-20170801.7z
+e3757004f6b636c841dc565af2453e25b380ccdd2f08765fe51c57d9353cfd89	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170720/mimikatz_trunk.7z	mimikatz-2.1.1-20170720.7z
+dbcdb1760bf944edb38fa2519b95e903358234e8c01cc0fca121257ef4c9d2a5	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170618/mimikatz_trunk.7z	mimikatz-2.1.1-20170618.7z
+# f43b2d63f27ef6af4276eae926ebd342ec511920a3c13f01f2ded4b96abdea5b 	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170508/mimikatz_trunk.zip	mimikatz-2.1.1-20170508.zip
+ea9e7d44946d3f0dbb4bf28522bc97e9d563cfb241c95806f250f53d223aedfb	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170508/mimikatz_trunk.7z	mimikatz-2.1.1-20170508.7z
+# d98787294ead98b58d4c53d8429dd6a3b39cba7047e4a163b95dd2601d169ef8	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170409/mimikatz_trunk.zip	mimikatz-2.1.1-20170409.zip
+10e88578b9adf311705808496613a786994ac356446a0d0e8101f25d288672bf	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170409/mimikatz_trunk.7z	mimikatz-2.1.1-20170409.7z
+# 903e258baf4f9db383b25a1ff33c77d652957d5f9d2de6e92ef40742981e793f	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170328/mimikatz_trunk.zip	mimikatz-2.1.1-20170328.zip
+561d5f9fcac5e26c7bbc8cea4df53208c07b7ba5b295cfd5680212fdfaa87e1b	https://github.com/gentilkiwi/mimikatz/releases/download/2.1.1-20170328/mimikatz_trunk.7z	mimikatz-2.1.1-20170328.7z
+
+# 1ef59c81904d610c2d7ac6f0de5b9d1ce6c3bd9dbdfb047c2db047ff565fc40d  mimikatz_20150409.zip
+# a	https://github.com/gentilkiwi/mimikatz/releases/download/2.0.0-alpha-20150510/mimikatz_trunk.7z	mimikatz-2.0.0-alpha-20150510.7z
+# a	https://github.com/gentilkiwi/mimikatz/releases/download/2.0.0-alpha-20150507/mimikatz_trunk.7z	mimikatz-2.0.0-alpha-20150507.7z
+# a	https://github.com/gentilkiwi/mimikatz/releases/download/2.0.0-alpha-20150419a/mimikatz_trunk.7z	mimikatz-2.0.0-alpha-20150419a.7z
+
+# 801683339A3975E5C6256F2CF55B8B1B https://malwr.com/analysis/NzYyNTRmNzVhNTc5NDEzYmE5YTZlZjM1YTliN2UyYjQ/
+# 3d84ee3ac2a18e2dc60a921e3278ddfb87e799b7cd003184a804c5572f703c0d	http://github.com/gentilkiwi/mimikatz/releases/download/2.0.0-alpha-20141213/mimikatz_trunk.zip	mimikatz-2.0.0-alpha-20141213.zip
+# 81df826d9d02158e94e1b7b4bd974a368ae22df40434bc208bd58861fecdec89	http://github.com/gentilkiwi/mimikatz/releases/download/2.0.0-alpha-20141213/mimikatz_trunk.7z	mimikatz-2.0.0-alpha-20141213.7z
+# 50C5689FDCE4239D79C5EF4319BCA6BC
