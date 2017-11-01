@@ -1,0 +1,20 @@
+# https://my.comae.io/tools
+# http://tools.comae.io/comae-toolkit/
+# Previously - http://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7
+
+fcc8017b2989241d5b8aed068548b156c6147f5b535dbf65015c5b144a6959ff	http://tools.comae.io/comae-toolkit/Comae-Toolkit-3.0.20171020.6.zip
+278835d7b89751ea45bf6cf771223e85377de8fdaa23be7490b3a5485e45eccf	http://tools.comae.io/comae-toolkit-light/Comae-Toolkit-Light-3.0.20171020.6.zip
+# f28fff9fe68a1651acc6f3bbff6b3799d2f852f190bac79029f7e0560133d49a	DumpIt-x32-3.0.20171020.6.exe
+# 59f150ced459fdce3c22e9e340e60f6c64a431756f0c5cb337432bff49d1d505	DumpIt-x64-3.0.20171020.6.exe
+
+# http://tools.comae.io/comae-toolkit/Comae_Memory_Toolkit-3.0.109.20161007.zip
+# 2a6346dd58ce312422bc613d239088c4f9562ced7f4899882c6e8aaf965c3f91	DumpIt-x32-3.0.109.20161007.exe
+
+# 51d2f991354876b74df85fa163d6f0eefb845a1d3a9915e979a3084d164f0673	http://tools.comae.io/comae-toolkit-light/Comae-Toolkit-Light-3.0.20170620.1.zip
+# d79189d0af5c5ab7414a93b9dd71c7c3a811322bd5b27611dec23aea3fa007c9	DumpIt-x32-3.0.20170620.1.exe
+
+# 384e5f8ce76257bd2a4fa21e8e99741c4cd0794890611bf9db10091b12393fbc	DumpIt-2.1.0.20140115.exe
+
+# http://www.moonsols.com/wp-content/plugins/download-monitor/download.php?id=7
+# e97402adcb87aceef5ea672fc2b0c1b9fe56f29c4cddc285b6180d9d410f54a7	DumpIt.zip
+# 7850850434059adb8354629e2d1102a8fcc7be8b606edbb4bbb22a1060baec26	DumpIt-1.3.2.20110401.exe
