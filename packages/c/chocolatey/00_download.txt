@@ -1,9 +1,7 @@
-# https://chocolatey.org/api/v2/package/chocolatey/
-# wget -c --restrict-file-names=unix --content-disposition --trust-server-names https://chocolatey.org/api/v2/package/chocolatey/
-3aeb695866b6f7d79950f3865183efb626294fdbfcc3d7d1235dd8b27918f656	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.8.nupkg
+# https://www.google.com/chrome/browser/desktop/index.html
+# https://www.google.com/chrome/browser/desktop/index.html?standalone=1
 
+511e7fa8a73293761f9aac0303d0cad1006e118c011f1c7ba3b0212ba8726908	https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBCB4C511-ACEF-7F10-5196-05453B14FB79%7D%26lang%3Den%26browser%3D2%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1/chrome/install/ChromeStandaloneSetup64.exe
+632e74d260b837a580c2f37e64b2ebfccd2e446b6b0f41493e19c100cf560c21	https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BBCB4C511-ACEF-7F10-5196-05453B14FB79%7D%26lang%3Den%26browser%3D2%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3D-statsdef_1/chrome/install/ChromeStandaloneSetup.exe
 
-# Older packages
-# 9b4a4e2bf538c4980b1b9f51e5b1383c55f39549eca7a295d44ea6cd7a6e0380	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.6.1.nupkg
-# 230b556c61d3b5d97ba30d4c4877d2ef8d2c353538621f82973c3220e53c116b	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.5.nupkg
-
+# https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BAF5ABD18-90A0-D93B-FE51-0B8A213D71E0%7D%26lang%3Den%26browser%3D3%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeStandaloneSetup64.exe
