@@ -74,9 +74,9 @@ accidentally in your host system.
 REBOX - Sandbox for Reversing Engineering (Malware)
 ---------------------------------------------------
 
-- For this introductory session of reverse engineering the malware you will need certain tooling.
+- You will need certain tooling for this introductory session of reverse engineering the malware.
 
-- There will be not enough time in the class to get this all running and not enough network bandwidth so everybody would download everything needed so
+- There will not be enough time in the class to get this all up and running and not enough network bandwidth so everybody would download everything needed so
 
 - please come with windows virtual machine installed ready to run
 
@@ -91,7 +91,7 @@ What you will need - core tools
 It is crucial to be able to take snapshots
   https://www.virtualbox.org/wiki/Downloads
 
-- Win7/Win10 virtual machine
+- Win7/Win10 virtual machine (some tools work only on Win XP)
 
 - Immunity Debugger - https://www.immunityinc.com/products/debugger/
 
@@ -119,7 +119,7 @@ What you will need -- Optional
 
 - other debuggers such as ollydbg, x64dbg, ...
 
-- other analysis tools like capturebat, sysinternals, peid, binwalk, ....
+- other analysis tools like capturebat (works only on WinXP), sysinternals, peid, binwalk, ....
 
 
 

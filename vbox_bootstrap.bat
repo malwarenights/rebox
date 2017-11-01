@@ -77,3 +77,6 @@ echo ==== Install telnet client
 pkgmgr /iu:"TelnetClient"
 pkgmgr /iu:"TFTP"
 
+echo ==== Enable Test Mode to allow unsigned drivers
+bcdedit.exe -set loadoptions DDISABLE_INTEGRITY_CHECKS
+bcdedit.exe -set TESTSIGNING ON
