@@ -1,1 +1,5 @@
-d5e42b90024e3cdc047ee55269a057f24ffffb0d5f420d9c544e81e3622774fe	https://github.com/icsharpcode/ILSpy/releases/download/v2.4/ILSpy_Master_2.4.0.1963_Binaries.zip
+# https://github.com/icsharpcode/ILSpy/releases/
+
+e840846f9d38e0e52272e255659c101d6bc74a6ba89263c53815f316b6d78c56	https://github.com/icsharpcode/ILSpy/releases/download/v3.0-beta1/ILSpy_binaries_3.0.0.3142.zip
+
+# d5e42b90024e3cdc047ee55269a057f24ffffb0d5f420d9c544e81e3622774fe	https://github.com/icsharpcode/ILSpy/releases/download/v2.4/ILSpy_Master_2.4.0.1963_Binaries.zip
