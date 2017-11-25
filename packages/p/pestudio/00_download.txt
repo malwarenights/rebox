@@ -1,3 +1,5 @@
 # https://www.winitor.com/binaries.html
 
-56d393550a017992a5840ced3fb5d2245c6498761fc8605923362987a824b034	https://www.winitor.com/tools/pestudio/current/pestudio.zip	pestudio-8.60.zip
+b330237cfbfb9a319df1d1308956bf79940e50dee2f7cbf74b0797d528eae978	https://www.winitor.com/tools/pestudio/current/pestudio.zip	pestudio-8.70.zip
+
+# 56d393550a017992a5840ced3fb5d2245c6498761fc8605923362987a824b034	https://www.winitor.com/tools/pestudio/current/pestudio.zip	pestudio-8.60.zip
