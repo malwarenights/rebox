@@ -1,5 +1,10 @@
 # https://hshrzd.wordpress.com/pe-bear/
+# https://github.com/hasherezade/releases/releases
 # https://github.com/hasherezade/bearparser
 
-eed45e963f84a4cf25cd8f7af7e6ce0b115df91b53d15b051ace983d17102eb3	https://github.com/hasherezade/releases/files/333195/PE-bear_x86_0.3.7.zip
-44b179678c06c0e228b0bc6f8e75618397307c356a3693d46460797300867b97	https://github.com/hasherezade/releases/files/333194/PE-bear_x64_0.3.7.zip
+
+6bca6e76c40b05bc5a839efedb857d86e7b6f015da4b6ebbdb511e5b4635bc6c	https://github.com/hasherezade/releases/releases/download/0.3.8/PE-bear_x64_0.3.8.zip
+a9c2bdfe1061e314fe479d48c509cc3bf89144d00a03b1c5cfecc26c09b47e04	https://github.com/hasherezade/releases/releases/download/0.3.8/PE-bear_x86_0.3.8.zip
+
+# eed45e963f84a4cf25cd8f7af7e6ce0b115df91b53d15b051ace983d17102eb3	https://github.com/hasherezade/releases/files/333195/PE-bear_x86_0.3.7.zip
+# 44b179678c06c0e228b0bc6f8e75618397307c356a3693d46460797300867b97	https://github.com/hasherezade/releases/files/333194/PE-bear_x64_0.3.7.zip
