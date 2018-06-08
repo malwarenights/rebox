@@ -1,4 +1,11 @@
+# https://docs.microsoft.com/en-us/sysinternals/
+# https://docs.microsoft.com/en-us/sysinternals/downloads/
+# https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+#
 # Presentation:
 #	https://www.youtube.com/watch?v=Wuy_Pm3KaV8
-#
-8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
+# 
+c6cd0795f6f5754ad2ceab576862e5142b8829b9e5004d5081822bfd3ba0ac10	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20180531.zip
+
+# 8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
+
