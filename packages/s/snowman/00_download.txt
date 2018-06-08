@@ -1,2 +1,9 @@
-9234b0f28a7728fadf1c3d00f6a876598c97b4bb5c0d06c6c2a23133a4655085	https://derevenets.com/files/snowman-v0.1.0-win-x64.7z
-fef6d19f991677b6710d1a199b82bfc2d9f12b82209fb933eb2bc951bbf35771	https://derevenets.com/files/snowman-v0.1.0-win-x86.7z
+# https://derevenets.com/
+#
+#
+
+9d07f046aac367aa3c28ef2e12d32c6cc1c7c1b1d4b540a2f3efcd68e9ce65e4	https://derevenets.com/files/snowman-v0.1.2-win-x64.7z
+90bf2b6558162bb6776c4ea5da8ee5de1b116a51c611ffec17f3d15b0db49e03	https://derevenets.com/files/snowman-v0.1.2-win-x86.7z
+
+# 9234b0f28a7728fadf1c3d00f6a876598c97b4bb5c0d06c6c2a23133a4655085	https://derevenets.com/files/snowman-v0.1.0-win-x64.7z
+# fef6d19f991677b6710d1a199b82bfc2d9f12b82209fb933eb2bc951bbf35771	https://derevenets.com/files/snowman-v0.1.0-win-x86.7z
