@@ -375,7 +375,7 @@ Known Issues
    -> please make sure the kernel modules are compiled well (akmods command)
 
 - Nokogiri fails to build
-   -> you are missing zlib-deve
+   -> you are missing zlib-devel
 
 - gem install winrm fails
    -> use version 1.8.1
