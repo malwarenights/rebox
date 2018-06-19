@@ -1,13 +1,20 @@
 # https://get.adobe.com/flashplayer/
-# https://get.adobe.com/flashplayer/download/?installer=FP_23_for_Internet_Explorer_-_ActiveX&os=Windows 7&browser_type=MSIE&browser_dist=OEM&p=mdual&dualoffer=true&mdualoffer=false&chromedefault=true&stype=2733&a=Google_Toolbar_7.5&a=Google_Chrome_4.0.0.4_IE_Browser
+
+# https://get.adobe.com/flashplayer/download/?installer=FP_30_for_Internet_Explorer_-_ActiveX&stype=7602&standalone=1
+0c18fede7bfd053867902605af87e8a175b2fb201870d8c6ec9b4d0b7481e67c	https://fpdownload.adobe.com/get/flashplayer/pdc/30.0.0.113/install_flash_player_ax.exe
+
+# https://get.adobe.com/flashplayer/download/?installer=FP_30_for_Firefox_-_NPAPI&stype=7602&standalone=1
+aaae5a2ee5b2285373e2ee185f68735e1d02e219e63b04f9ad343f79c99821e8	https://fpdownload.adobe.com/get/flashplayer/pdc/30.0.0.113/install_flash_player.exe
+
+# https://get.adobe.com/flashplayer/download/?installer=FP_30_for_Opera_and_Chromium_-_PPAPI&stype=7602&standalone=1
+8ab283f3e4e9ecc17b6d44d66b9688c5a2e43adbef8bc9cf699c563d84a93ea7	https://fpdownload.adobe.com/get/flashplayer/pdc/30.0.0.113/install_flash_player_ppapi.exe
 
 # https://get.adobe.com/flashplayer/download/?installer=FP_25_for_Firefox_-_NPAPI&stype=6553&standalone=1
-ea80a074018b4de6217a04745b82190957f648246bc94919e9fafb5e5c00ae97	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player.exe
+# ea80a074018b4de6217a04745b82190957f648246bc94919e9fafb5e5c00ae97	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player.exe
 
 # https://get.adobe.com/flashplayer/download/?installer=FP_25_for_Internet_Explorer_-_ActiveX&stype=6553&standalone=1
-a2bf83dbcea97db6d8150d7f545d47bb8af7b5204c3cfbbf94d6203fe5951cc4	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ax.exe
+# a2bf83dbcea97db6d8150d7f545d47bb8af7b5204c3cfbbf94d6203fe5951cc4	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ax.exe
 
 # https://get.adobe.com/flashplayer/download/?installer=FP_25_for_Opera_and_Chromium_-_PPAPI&stype=6553&standalone=1
-93c9fa8e5a7da41c3b8257660e4fcdeb7d5105220073bd3fb22e93c6917736cc	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ppapi.exe
-
+# 93c9fa8e5a7da41c3b8257660e4fcdeb7d5105220073bd3fb22e93c6917736cc	https://fpdownload.adobe.com/get/flashplayer/pdc/25.0.0.148/install_flash_player_ppapi.exe
 
