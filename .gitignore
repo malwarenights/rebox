@@ -1,0 +1,11 @@
+*.tgz
+*.tar.gz
+*.tbz2
+*.tar.bz2
+*.zip
+*.rpm
+*.jar
+*.7z
+*.cab
+*.msi
+
