@@ -2,7 +2,7 @@
 pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET="%SOFTWARE%\radare2"
+set TARGET=%SOFTWARE%\radare2
 set PACKAGE=radare2-w32-1.5.0-git.zip
 
 if exist %TARGET% goto END

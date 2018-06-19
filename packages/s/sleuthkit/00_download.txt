@@ -1,1 +1,4 @@
-https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.4.0/sleuthkit-4.4.0-win32.zip
+# https://github.com/sleuthkit/sleuthkit/
+# https://github.com/sleuthkit/sleuthkit/releases
+0c9a0b63023f83a19ff6d5c79e3b1ebf456903a1b115562c575ed20b3ed867a1	https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.4.0/sleuthkit-4.4.0-win32.zip
+

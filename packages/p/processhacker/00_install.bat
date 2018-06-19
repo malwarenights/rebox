@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\processhacker"
+set TARGET=%SOFTWARE%\processhacker
 set PACKAGE=processhacker-2.39-bin.zip
 
 if exist "%TARGET%" goto END

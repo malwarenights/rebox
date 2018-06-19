@@ -2,7 +2,7 @@
 pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET=%SOFTWARE%\autoit3^M
+set TARGET=%SOFTWARE%\autoit3
 
 SET PACKAGE=autoit-v3-setup.exe
 if exist %TARGET% goto END

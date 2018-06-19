@@ -1,0 +1,8 @@
+# https://github.com/hasherezade/pe_recovery_tools/
+#
+
+af16cb868f81020164a783e47e45cb8ec469b14ecc795dfebe7fcb1b31a6677d	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSWkZWVkxWZTVRZnc	find_forwarders.exe
+a4153c3320da3765585729a321531edbea6698543ac579b3881f9387607f9904	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScnotUWtyM0dyYlk	va_to_import.exe
+9fba1406150765183121456708d0c6bb5a4ded1f062e76325da54a18fe0bd706	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSc0J2Y0JXcGZuUFk	pe_unmapper.exe
+45043487bba6ef5a5896ee0817e512e35466ec9142aaaefeee88a7cfa7a67c85	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScUhoWDFHbi05TkE	imports_unerase.exe
+

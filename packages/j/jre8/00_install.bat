@@ -3,7 +3,7 @@ pushd "%~dp0"
 
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
-set TARGET="%SOFTWARE%\jre8"
+set TARGET=%SOFTWARE%\jre8
 set PACKAGE32=jre-8u131-windows-i586.exe
 set PACKAGE64=jre-8u131-windows-x64.exe
 

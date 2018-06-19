@@ -1,8 +1,14 @@
-https://raw.githubusercontent.com/MalWerewolf/autobreak-api/master/autobreak-api.py
-https://takahiroharuyama.github.io/downloads/scripts/blackmanta.py
-http://www.gironsec.com/code/joebp.py
-https://github.com/corelan/mona/raw/master/mona.py
-https://takahiroharuyama.github.io/downloads/scripts/plugx_dumper.py
-#http://www.woodmann.com/collaborative/tools/index.php/PE_Dumper
-http://www.woodmann.com/collaborative/tools/images/Bin_PE_Dumper_2008-4-3_15.17_OllyDbg_PE_Dumper_v3.03.rar
+# Misc python plugins for Immunity Debugger
+#
+eba167e571d3542a2b51d830a74c87894122e72d9b184211da58786872dbc55c	https://github.com/corelan/mona/archive/48f5dbcb63f753b19cfe7ce74b8aa315144e7b78/corelan-mona-570-48f5dbcb.tar.gz	corelan-mona-570-48f5dbcb.tar.gz
+004fb2c35f6050d7f4fa8707ad77d39338fe36f9560d022891b81fcfef0d6433	https://github.com/adrianherrera/immdbg-pycommands/archive/3bd657add23f0fd3d577eac382a9a72917aaebd5/adrianherrera_immdbg-pycommands-3bd657ad.tar.gz	adrianherrera_immdbg-pycommands-3bd657ad.tar.gz
+07c5601e03448f4624e3554451e0e5b0e6bb59e0c49d3cfc6f33f071956a9596	https://github.com/MalWerewolf/autobreak-api/archive/e3edc2aae97edd58de1d4836fe0cfb879831f1f7/MalWerewolf_autobreak-api-e3edc2aa.tar.gz	MalWerewolf_autobreak-api-e3edc2aa.tar.gz
+a12845b568bc37ae4fafe74acc554764767443d4644724477e9dee08fafc1f00	https://github.com/theevilbit/immunity_scripts/archive/b0876ee751a00d0f0840be5a728de6b71ee50982/theevilbit_immunity_scripts-b0876ee7.tar.gz	theevilbit_immunity_scripts-b0876ee7.tar.gz
+a61858fee841b15cbcfff5ea5c2d8b7dcc68c8809b78ab969e7269044f571468	https://takahiroharuyama.github.io/downloads/scripts/blackmanta.py
+4dc6e9d7b56528655608842234699331a8eea3bf0e5aaa853f7ae7548f0200f2	https://takahiroharuyama.github.io/downloads/scripts/immbone.zip
+7c19e2d18ad948e02623d16f1ef8a370effe5b0f1e975df7a2c915ee25a6d52c	https://takahiroharuyama.github.io/downloads/scripts/plugx_dumper.py
+0c25f5edf50ee18569bc02a07c2c8d5fad3b056276eed825dff6131a7a7c11d5	http://www.gironsec.com/code/joebp.py
+
+# http://www.woodmann.com/collaborative/tools/index.php/PE_Dumper
+167493a29e5976eaf7e6623748153149851e749e5e9a2634f9152ce1e4994c6d	http://www.woodmann.com/collaborative/tools/images/Bin_PE_Dumper_2008-4-3_15.17_OllyDbg_PE_Dumper_v3.03.rar
 

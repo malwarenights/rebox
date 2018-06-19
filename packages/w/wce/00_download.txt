@@ -1,0 +1,25 @@
+# http://www.ampliasecurity.com/research/windows-credentials-editor/
+# http://www.ampliasecurity.com/research/wcefaq.html
+#
+73be6ab6786277a7fbfca1e8eeaa838a630e56ee8dfa40f27b530c80b170feca	http://www.ampliasecurity.com/research/wce_v1_42beta_x32.zip
+bf2d3a2218c9d1a2da734e61778ff804c191a3938a25e1779ab175733450c211	http://www.ampliasecurity.com/research/wce_v1_42beta_x64.zip
+8f4efa0dde5320694dd1aa15542fe44fde4899ed7b3a272063902e773b6c4933	http://www.ampliasecurity.com/research/wce_v1_41beta_universal.zip
+a4267177ee6ce113ed6b04ad92b50f42ca6e1c4fd36e53b1933a0baa1d8985c9	http://www.ampliasecurity.com/research/wce_v1_41beta_x32.zip
+a086cc36c3a110ad10919c99053e4ba0696d49fb682d50060515e4a6f7f51f17	http://www.ampliasecurity.com/research/wce_v1_41beta_x64.zip
+75edb0534f87024946601864b5df89a96faace54cfe3ffaa1c0d969dfc80ef29	http://www.ampliasecurity.com/research/wce_v1_4beta_x32.zip
+ca3086691091bc37a7ffc3d197d7a288cfa589d7e8547fa4bf38bf821abb7207	http://www.ampliasecurity.com/research/wce_v1_4beta_x64.zip
+285b752a5654ebc12d1cdde6a34f79438f321b1ba9e23e9ca345f7cd9739587b	http://www.ampliasecurity.com/research/wce_v1_4beta_universal.zip
+a37f97e6bbfa2e0c52bb422c8d27d9fe9642897257dcd02f1df4f2b0be47ee45	http://www.ampliasecurity.com/research/wce_v1_3beta.tgz
+94430ae375a24036fffadd1ca884bc8e81f5eb85fd962554c158978c7d561bae	http://www.ampliasecurity.com/research/wce_v1_3beta_x64.tgz
+2b4796b1bc7c7c57eac8392987506246d7e79d1bc7d2da1d7f30b42f1db7430c	http://www.ampliasecurity.com/research/wce_v1_21_x64.tgz
+099e55d14489dafd73cfdfa5499d3104b38a4256c3df9a93abae54beaa077d30	http://www.ampliasecurity.com/research/wce_v1_2.tgz
+099e55d14489dafd73cfdfa5499d3104b38a4256c3df9a93abae54beaa077d30	http://www.ampliasecurity.com/research/wce_v1_2.tgz
+d5947a1b05bc5936dec425b3b826c1e9cea6c3295335bf93a05f071088349b99	http://www.ampliasecurity.com/research/wce_v1_1.tgz
+bef46a63cfdaf23c27a460c9e1f10477767aa84ca2f3b977b9cf032c1aaabf40	http://www.ampliasecurity.com/research/wce_v1.0.tgz
+98959ac10818ecef21d21b1374aac7212697034b677e8becd905f308755f35ee	http://www.ampliasecurity.com/research/WCE_Internals_RootedCon2011_ampliasecurity.pdf
+7471878636a4afac2a6ce710496a560d95bf6311d31635911fc1a9bc63c352a9	http://www.ampliasecurity.com/research/wce12_uba_ampliasecurity_eng.pdf
+
+# Missing
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	http://www.ampliasecurity.com/research/wce_v1_2_x64.tgz
+
+

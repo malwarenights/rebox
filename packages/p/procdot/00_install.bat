@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\procdot"
+set TARGET=%SOFTWARE%\procdot
 set PACKAGE=procdot_1_2_55_windows.zip
 
 if exist "%TARGET%" goto END

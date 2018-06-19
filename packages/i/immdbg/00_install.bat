@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\immdbg"
+set TARGET=%SOFTWARE%\immdbg
 set PACKAGE=ImmunityDebugger_1_85_setup.exe
 
 if exist "%TARGET%" goto END

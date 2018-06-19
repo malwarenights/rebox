@@ -1,8 +1,8 @@
 @echo off
 pushd "%~dp0"
 
-set DESTDIR=c:\software\
-set TARGET=%DESTDIR%unxutils
+if "%SOFTWARE%"=="" (set SOFTWARE=%SystemDrive%\software)
+set TARGET=%SOFTWARE%\upx
 set PACKAGE=upx394w.zip
 
 if exist "%TARGET%\upx.exe" goto END

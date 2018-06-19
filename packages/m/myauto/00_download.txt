@@ -1,3 +1,3 @@
-http://www.nerdbucket.com/mirrors/myAutToExe2_00_Alpha_AutoIt3_Decompiler_opensource.zip
 #https://blog.nerdbucket.com/autoit-decompiler-for-v3-2-6/article
 #http://defcon5.biz/phpBB3/viewtopic.php?f=5&p=5735
+579bf629673a779095ca1535e1009b608010a0bcc6646e0489b8bb264408f033	http://www.nerdbucket.com/mirrors/myAutToExe2_00_Alpha_AutoIt3_Decompiler_opensource.zip

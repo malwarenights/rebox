@@ -49,3 +49,9 @@ http://expdev-kiuhnm.rhcloud.com/2015/05/19/mona-2/
 !py mona
 
 http://expdev-kiuhnm.rhcloud.com/2015/05/26/exploitme1-ret-eip-overwrite/
+
+================= SwishDbgExt
+https://github.com/comaeio/SwishDbgExt
+
+================= wdbgark - anti-rootkit extension
+https://github.com/swwwolf/wdbgark

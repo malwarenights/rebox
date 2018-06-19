@@ -1,3 +1,3 @@
 # http://www.ntcore.com/exsuite.php
-94f4348ec573b05990b1e19542986e46dc30a87870739f5d5430b60072d5144d http://www.ntcore.com/files/ExplorerSuite.exe
+94f4348ec573b05990b1e19542986e46dc30a87870739f5d5430b60072d5144d	http://www.ntcore.com/files/ExplorerSuite.exe
 

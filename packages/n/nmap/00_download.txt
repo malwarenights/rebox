@@ -1,3 +1,6 @@
-#https://nmap.org/download.html#windows
-#https://nmap.org/dist/nmap-6.47-setup.exe
-https://nmap.org/dist/nmap-7.12-setup.exe
+# https://nmap.org/download.html#windows
+c262da5d2d19425c46fc0c1a3a029ec818b4cc5f9682704559ea25b7d9ab9d72	https://nmap.org/dist/nmap-7.40-setup.exe
+
+#Older Packages
+#56580f1eebdccfbc5ce6d75690600225738ddbe8d991a417e56032869b0f43c7	https://nmap.org/dist/nmap-7.12-setup.exe
+#501e8150e16a6c015670d04c3081a5c239dc36cd10c225a603c5fbe52e5aa279	https://nmap.org/dist/nmap-6.47-setup.exe

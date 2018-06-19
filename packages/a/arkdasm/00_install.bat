@@ -4,7 +4,7 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 
-set TARGET="%SOFTWARE%\arkdasm"
+set TARGET=%SOFTWARE%\arkdasm
 set PACKAGE=arkdasm-1.1.0.zip
 
 if exist "%TARGET%" goto END

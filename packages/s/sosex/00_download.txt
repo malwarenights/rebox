@@ -1,0 +1,5 @@
+# http://www.stevestechspot.com/
+4a94d142bcc5ade9cd215c13d77c83cf96f3b0abc37ee89deb6471383f8f7fa4	http://www.stevestechspot.com/downloads/sosex_32.zip
+057f9b3d737e14ab682b5c3bfac642146115cd06774e6aa043b94bba77a4f477	http://www.stevestechspot.com/downloads/sosex_64.zip
+402e6901c4577c9f66ddb73c7087051fbb7d23c28c936608943a60dc998c299e	http://www.stevestechspot.com/downloads/sosex_xp03_32.zip
+1cacd7099c7552e49016664f24394a2932a279690be450749777264e66e63037	http://www.stevestechspot.com/downloads/sosex_xp03_64.zip

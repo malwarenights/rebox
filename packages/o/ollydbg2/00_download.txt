@@ -3,4 +3,7 @@
 # https://tuts4you.com/download.php?list.94
 # https://github.com/0vercl0k/ollydbg2-python
 # https://tuts4you.com/download.php?view.3614
-
+29244e551be31f347db00503c512058086f55b43c93c1ae93729b15ce6e087a5	http://www.ollydbg.de/odbg201.zip
+28bf14414ea863dd3ff3eb73b67b1f3d412ca2f1deb3eb88caaf0e551d5118ea	http://www.ollydbg.de/language.zip
+b807669f707e54a35131eb3d0da1a7b27c8e944f73dcfc11469824a6b462cd6c	http://www.ollydbg.de/chicken.zip
+3b84384214ec90b86c607f1bd851ab6b78c4fa239a5ed90ae8d23be263a10eba	http://www.ollydbg.de/Disasm201.zip

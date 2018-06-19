@@ -1,3 +1,3 @@
 # http://www.nasm.us/pub/nasm/releasebuilds/2.13/
-x http://www.nasm.us/pub/nasm/releasebuilds/2.13/win32/nasm-2.13-win32.zip
-x http://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-win64.zip
+8058831e3f251fa1f7b59ad38597687aee837972f97186bc579bfc7828b3e295	http://www.nasm.us/pub/nasm/releasebuilds/2.13/win32/nasm-2.13-win32.zip
+2ac999f3d0fafd5f1cac0aa5ccbea7bfc8c4aee8ad51ebb3a0360afccd6f8af2	http://www.nasm.us/pub/nasm/releasebuilds/2.13/win64/nasm-2.13-win64.zip

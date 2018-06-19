@@ -1,4 +1,14 @@
-98f76300aacfb5a0bfa3c35fc412f27f8d79419662ba46c9ea6e8e5bd2e074c7	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB8vUvjkYEHaJ61vheArqZ-a/yara-3.5.0-win32.zip?dl=1	yara-3.5.0-win32.zip
-76a376db1adc20d7699eff85b32554caa36c3561c85555bd9a057dfb8c1ede20	https://www.dropbox.com/sh/umip8ndplytwzj1/AADd8NgcEPQo9ecirl3bnhFIa/yara-3.5.0-win64.zip?dl=1	yara-3.5.0-win64.zip
-240fb9a6a0c8aeed51314a783e38565e1f966c21fa282e53541d33edf4b3b730	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB1fwgyHEg3MFrdMff06ecBa/yara-python-3.5.0.0.win32-py2.7.exe?dl=1	yara-python-3.5.0.0.win32-py2.7.exe
-c0b2b3b2ffed369cab27845d83cdde352ce776f42a60c6b2bfdfab8fc011952d	https://www.dropbox.com/sh/umip8ndplytwzj1/AADYYKc5uvGuWDeWLlDBHg3Ka/yara-python-3.5.0.0.win-amd64-py2.7.exe?dl=1	yara-python-3.5.0.0.win-amd64-py2.7.exe
+# Release 3.6.0
+# https://github.com/VirusTotal/yara/releases/tag/v3.6.0 -> windows binaries ->
+# https://www.dropbox.com/sh/umip8ndplytwzj1/AADdLRsrpJL1CM1vPVAxc5JZa?dl=0&lst=
+2f0137a51743faa79c092fc1cd11c2de456b5c2d388744792f7f764764538359	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAbhiSoApsa1-A6y3KA1qaoa/yara-3.6.0-win32.zip?dl=1	yara-3.6.0-win32.zip
+921533349c45e93e93354e235c4bef8602a6d6c9b0a3189dda2161c23e878f02	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAPo79rPe7AP0vR7TpHhjwva/yara-3.6.0-win64.zip?dl=1	yara-3.6.0-win64.zip
+3b5c84ee704c294c5fe333f4b239a551dcdcdd697f67c04a3a5860e05a0f3855	https://www.dropbox.com/sh/umip8ndplytwzj1/AACed5oEMWgm-mm0G3GcFnVQa/yara-python-3.6.0.win32-py2.7.exe?dl=1	yara-python-3.6.0.win32-py2.7.exe
+5913edbe2e1cf27f227d9121d527fd31a1c4f80cbfee8c24a9011d2b8ea22991	https://www.dropbox.com/sh/umip8ndplytwzj1/AAAJJa89vpOQLW7bpB4SKAHra/yara-python-3.6.0.win-amd64-py2.7.exe?dl=1	yara-python-3.6.0.win-amd64-py2.7.exe
+
+# Release 3.5.0
+# https://github.com/VirusTotal/yara/releases/tag/v3.5.0 -> windows binaries ->
+# 98f76300aacfb5a0bfa3c35fc412f27f8d79419662ba46c9ea6e8e5bd2e074c7	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB8vUvjkYEHaJ61vheArqZ-a/yara-3.5.0-win32.zip?dl=1	yara-3.5.0-win32.zip
+# 76a376db1adc20d7699eff85b32554caa36c3561c85555bd9a057dfb8c1ede20	https://www.dropbox.com/sh/umip8ndplytwzj1/AADd8NgcEPQo9ecirl3bnhFIa/yara-3.5.0-win64.zip?dl=1	yara-3.5.0-win64.zip
+# 240fb9a6a0c8aeed51314a783e38565e1f966c21fa282e53541d33edf4b3b730	https://www.dropbox.com/sh/umip8ndplytwzj1/AAB1fwgyHEg3MFrdMff06ecBa/yara-python-3.5.0.0.win32-py2.7.exe?dl=1	yara-python-3.5.0.0.win32-py2.7.exe
+# c0b2b3b2ffed369cab27845d83cdde352ce776f42a60c6b2bfdfab8fc011952d	https://www.dropbox.com/sh/umip8ndplytwzj1/AADYYKc5uvGuWDeWLlDBHg3Ka/yara-python-3.5.0.0.win-amd64-py2.7.exe?dl=1	yara-python-3.5.0.0.win-amd64-py2.7.exe

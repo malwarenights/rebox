@@ -1,0 +1,109 @@
+Cuckoo Sandbox
+--------------
+
+- https://www.cuckoosandbox.org/
+- https://cuckoo.sh/docs/installation/host/requirements.html
+- https://github.com/cuckoosandbox/cuckoo
+
+Cuckoo master - stable version
+------------------------------
+
+Cuckoo master - devel version
+-----------------------------
+
+cd opt
+# git clone https://github.com/cuckoosandbox/cuckoo cuckoo-upstream
+wget https://github.com/cuckoosandbox/cuckoo/archive/2.0.3.tar.gz -O cuckoo-2.0.3.tar.gz
+tar xzvf cuckoo-2.0.3.tar.gz
+if [ -L cuckoo ] ; then
+	rm -f cuckoo
+	ln -s cuckoo-2.0.3 cuckoo
+fi
+cd cuckoo-2.0.3
+python stuff/monitor.py
+python setup.py build
+sudo setup.py install
+
+
+
+sudo setcap cap_net_raw,cap_net_admin=eip /usr/sbin/tcpdump
+
+
+
+Cuckoo requirements
+-------------------
+
+- https://cuckoo.sh/docs/installation/host/requirements.html
+
+#Needed for pip rebuild of some packages
+dnf -y install libjpeg-devel
+
+cat /usr/lib/python2.7/site-packages/Cuckoo-2.0.3-py2.7.egg/EGG-INFO/requires.txt |\
+grep -v -E '^\[|^$'|sort -u |sed -e 's|[><=[].*||; s|^|python-|;'|\
+while read PACKAGE ; do
+    dnf -y install "$PACKAGE"
+done
+
+
+DNFPACKAGES="
+python-alembic		python-beautifulsoup4	python-chardet          python2-click
+python2-django          python-dpkt             python-elasticsearch    python-thrift
+python2-greenlet        python2-jinja2          python2-pillow          python2-psycopg2
+python2-pymongo         python2-requests        python-sqlalchemy       python-cairocffi
+python-cairosvg         python-pyphen           python-tinycss          python-weasyprint
+python-dateutil         python-magic            python-setuptools       python-packaging
+python-appdirs          python-pyparsing        python2-pymongo-gridfs
+scapy
+"
+
+dnf install $DNFPACKAGES
+
+JUST_FOR_CASE="
+python-androguard		python-distribute
+python-django_extensions        python-httpreplay
+python-jsbeautifier             python-m2crypto
+python-oletools                 python-olefiles
+python-peepdf                   python-pefile2
+python-pymisp                   python-sflock
+python-wakeonlan
+"
+
+dnf install $JUST_FOR_CASE
+
+
+MISSING="
+androguard	distribute	django_extensions
+httpreplay	jsbeautifier	m2crypto
+oletools	olefile		peepdf
+pefile2		pymisp		sflock
+wakeonlan
+"
+
+pip install $MISSING
+
+#Dependencies
+# sflock
+dnf -y install rar p7zip-plugins p7zip unace cabextract
+
+
+Try 
+ipython
+from pkg_resources import load_entry_point; load_entry_point('Cuckoo==2.0.3', 'console_scripts', 'cuckoo')
+
+
+vi /usr/lib/python2.7/site-packages/Cuckoo-2.0.3-py2.7.egg/EGG-INFO/requires.txt
+vi /usr/lib/python2.7/site-packages/SFlock-0.2.12-py2.7.egg/EGG-INFO/requires.txt
+vi /usr/lib/python2.7/site-packages/peepdf-0.3.4-py2.7.egg-info/EGG-INFO/requires.txt
+
+
+
+
+
+
+Cuckoo guest
+------------
+
+- python2 c:\software\cuckoo_agent\agent-2.0.3\agent.py
+
+
+

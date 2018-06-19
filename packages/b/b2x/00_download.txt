@@ -1,2 +1,6 @@
-# https://sourceforge.net/projects/b2xtranslator/files/b2xtranslator/Phase%203%20-%20Milestone%205/
-68a9a9102a84ee9ee570742728afa46c3ea152d81eff0a8c53a58528ae223bc9	http://downloads.sourceforge.net/b2xtranslator/b2xtranslator_setup_r649.msi
+# https://chocolatey.org
+# wget -c --restrict-file-names=unix --content-disposition --trust-server-names https://chocolatey.org/api/v2/package/chocolatey/
+
+230b556c61d3b5d97ba30d4c4877d2ef8d2c353538621f82973c3220e53c116b	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.8.nupkg
+# 230b556c61d3b5d97ba30d4c4877d2ef8d2c353538621f82973c3220e53c116b	https://chocolatey.org/api/v2/package/chocolatey/	chocolatey.0.10.5.nupkg
+

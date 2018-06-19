@@ -1,9 +1,10 @@
 @echo off
 pushd "%~dp0"
 
-set TARGET=C:\software\far
-set PACKAGE32=Far30b4900.x86.20170221.7z
-set PACKAGE64=Far30b4900.x64.20170221.7z
+if "%SOFTWARE%"=="" (set SOFTWARE=%SystemDrive%\software)
+set TARGET=%SOFTWARE%\far
+set PACKAGE32=Far30b5000.x86.20170807.7z
+set PACKAGE64=Far30b5000.x64.20170807.7z
 
 if exist "%TARGET%" goto END
 

@@ -1,2 +1,4 @@
-https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-32-bit.exe
-https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe
+# Git for windows (contains also pretty recent version of gnu coreutils)
+# https://github.com/git-for-windows/git/releases
+a1b45272f2e30a3545b96086ccf5a56a4154a47898a7d1d6803d51440236b3b5	https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-32-bit.exe
+6b298c597ffe960bec84d52fc15438d0ff61a24ac9de1c17433878ef656d50c8	https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe

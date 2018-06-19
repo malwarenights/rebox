@@ -1,3 +1,7 @@
-#http://processhacker.sourceforge.net/downloads.php
-https://github.com/processhacker2/processhacker2/releases/download/v2.39/processhacker-2.39-bin.zip
+# Process Hacker
+# http://processhacker.sourceforge.net/downloads.php
+#
+2afb5303e191dde688c5626c3ee545e32e52f09da3b35b20f5e0d29a418432f5	https://github.com/processhacker2/processhacker2/releases/download/v2.39/processhacker-2.39-bin.zip
+
+#c56ad081f75aafba069c4851e43e65500a00fd4b8d3c351657208238db3ad4aa	https://github.com/processhacker2/processhacker2/releases/download/v2.36/processhacker-2.36-bin.zip
 

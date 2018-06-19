@@ -1,0 +1,8 @@
+# http://reflexil.net/
+# https://github.com/sailro/Reflexil/releases
+
+f2ceb2542b9930197f9f08b95be6f781cf163dba45fd038837d25ee5cf655e76	https://github.com/sailro/Reflexil/releases/download/v2.1/reflexil.for.ILSpy.2.1.AIO.bin.zip
+94e530ed3add1b6a0c96da1b386fcb8e6a1fe9f025f83f0d4b198cebb06aa918	https://github.com/sailro/Reflexil/releases/download/v2.1/reflexil.for.ILSpy.2.1.bin.zip
+786a9d17d541bf04270facf7baa44d7655cb03b93c3a694242ab051c0e1c7836	https://github.com/sailro/Reflexil/releases/download/v2.1/reflexil.for.Reflector.2.1.AIO.bin.zip
+443d464665a89cc90f57d5e76f8c2b82d3f4723001cea12115125d99ab68ce12	https://github.com/sailro/Reflexil/releases/download/v2.1/reflexil.for.Reflector.2.1.bin.zip
+
