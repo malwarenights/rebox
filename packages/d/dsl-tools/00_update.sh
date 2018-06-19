@@ -4,7 +4,7 @@ DOWNFILE=00_download.txt
 
 ODD=0
 
-curl https://blog.didierstevens.com/my-software/ | gunzip | \
+curl https://blog.didierstevens.com/my-software/ | \
 grep -i -o -E 'http://didierstevens.com/files/software/[^"]*|[a-f0-9]{64}' | \
 while read I ; do
 	if [ "$ODD" -eq 0 ] ; then
