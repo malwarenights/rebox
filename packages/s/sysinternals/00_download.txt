@@ -1,9 +1,16 @@
+# https://docs.microsoft.com/en-us/sysinternals/
+# https://docs.microsoft.com/en-us/sysinternals/downloads/
+# https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
+#
 # Presentation:
 #	Mark Russinovich - sysinternals - https://www.youtube.com/watch?v=Wuy_Pm3KaV8
 #			 - sysmon	- https://www.youtube.com/watch?v=PLKFCWBswe0
 #	https://github.com/SwiftOnSecurity/sysmon-config
 #	https://www.youtube.com/watch?v=8qDEbnofkos
 #
-f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
 
+c6cd0795f6f5754ad2ceab576862e5142b8829b9e5004d5081822bfd3ba0ac10	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20180531.zip
+
+# f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
 # 8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
+

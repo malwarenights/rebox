@@ -1,0 +1,7 @@
+# https://www.nirsoft.net/utils/
+# https://www.nirsoft.net/utils/tcp_log_view.html
+
+# v1.30
+ccb96b26d63c7961e6dcce24ca35d6d3d330fbceacb88c1b9667cbc5ff8ea634	https://www.nirsoft.net/utils/tcplogview.zip
+f6870aa211c9eeb2cacce17137dff20965632463ff95a20e3061897aa3ab5eaf	https://www.nirsoft.net/utils/tcplogview-x64.zip
+

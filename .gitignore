@@ -9,6 +9,7 @@
 *.msi
 *.cab
 *.rar
-
-
+*.jar
+*.7z
+*.nupkg
 
