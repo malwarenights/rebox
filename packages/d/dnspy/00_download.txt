@@ -1,11 +1,12 @@
 # https://github.com/0xd4d/dnSpy/releases
 
-01af247c425b886ea8f20f791a84ddacaa8f2954361c09797178d0d6a63407d6	https://github.com/0xd4d/dnSpy/releases/download/v4.0.0-beta3/dnSpy.zip
+bc23db7b9d4869415a82746201139f918e49a070dbf0a198f53a454206e3978f	https://github.com/0xd4d/dnSpy/releases/download/v5.0.0/dnSpy.zip
 
+# 01af247c425b886ea8f20f791a84ddacaa8f2954361c09797178d0d6a63407d6	https://github.com/0xd4d/dnSpy/releases/download/v4.0.0-beta3/dnSpy.zip
 #v3.0.2
 # 66c49ec9b6053a8742ba7b63a10e460d5675a723d10abdae6cad528fdd441191	https://github.com/0xd4d/dnSpy/releases/download/v3.0.0/dnSpy.zip
-
 #3.0.0
 # 99c0e7bdc93e8051e7e4f09ff75c38ce77119de4a5434cd0cb6aaaf0f71a4ce2	https://github.com/0xd4d/dnSpy/releases/download/v3.0.0/dnSpy.zip
+
 
 
