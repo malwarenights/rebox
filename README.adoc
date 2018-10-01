@@ -13,10 +13,16 @@ TLTR - Too lazy to read Install Guide
 -------------------------------------
 
  # On linux host
- #git clone https://github.com/GoSecure/malboxes
- git clone  https://github.com/malwarenights/malboxes
+ # Install dependencies for malboxes
+ sudo dnf -y install git vagrant ruby-devel gcc-c++ zlib-devel
+ # Install "packer" from https://www.packer.io/downloads.html
+ mkdir /opt/packer
+ wget sudo ln -s /opt/packer/packer /usr/local/bin/packerio
+ 
+ # Install malboxes
+ git clone https://github.com/GoSecure/malboxes
  cd malboxes
- sudo python setup.py install
+ sudo python3 setup.py install
  malboxes build win10_64_analyst
  malboxes spin win10_64_analyst rebox_w10_x64
  git clone  https://github.com/malwarenights/rebox
