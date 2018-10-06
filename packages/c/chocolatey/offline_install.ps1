@@ -1,6 +1,6 @@
 # based on local file, see above instructions for how you can obtain package
 # from internal repository and download it local
-$localChocolateyPackageFilePath = 'chocolatey.0.10.6.1.nupkg'
+$localChocolateyPackageFilePath = 'chocolatey.0.10.11.nupkg'
 
 $ChocoInstallPath = "$($env:SystemDrive)\ProgramData\Chocolatey\bin"
 $env:ChocolateyInstall = "$($env:SystemDrive)\ProgramData\Chocolatey"
