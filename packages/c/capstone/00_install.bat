@@ -4,8 +4,8 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 set TARGET=%SOFTWARE%\capstone
-set PACKAGE32=capstone-3.0.5-rc2-python-win32.msi
-set PACKAGE64=capstone-3.0.5-rc2-python-win64.msi
+set PACKAGE32=capstone-3.0.5-python-win32.msi
+set PACKAGE64=capstone-3.0.5-python-win64.msi
 
 if exist "%TARGET%" goto END
 
