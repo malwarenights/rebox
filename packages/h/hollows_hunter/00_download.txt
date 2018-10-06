@@ -1,0 +1,8 @@
+# https://hshrzd.wordpress.com/pe-sieve/
+# https://github.com/hasherezade/hollows_hunter/releases
+# https://github.com/hasherezade/hollows_hunter
+
+
+22cd86e06b4c3f332a256fd11a2e52f3c8d06ff0c796a01fe797e120c2597e00	https://github.com/hasherezade/hollows_hunter/releases/download/v0.1.7/hollows_hunter32.zip
+ff31924b96233079c365b46cc7e7f28488f670c685f0712ead1912dad73d51e2	https://github.com/hasherezade/hollows_hunter/releases/download/v0.1.7/hollows_hunter64.zip
+
