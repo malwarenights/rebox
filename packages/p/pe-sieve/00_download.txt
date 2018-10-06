@@ -1,0 +1,7 @@
+# https://hshrzd.wordpress.com/pe-sieve/
+# https://github.com/hasherezade/pe-sieve/releases
+# https://github.com/hasherezade/pe-sieve
+
+8d80e04f53d6a14b71bd07037eb46c172f30a451d66819a6502ed7bbe87230a9	https://github.com/hasherezade/pe-sieve/releases/download/v0.1.4.3/pe-sieve32.exe
+7d32b62712399f4a1afb93ca7cf0c7c49f93d82a990cc1f27d82dda4981a19ee	https://github.com/hasherezade/pe-sieve/releases/download/v0.1.4.3/pe-sieve64.exe
+
