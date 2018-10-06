@@ -1,6 +1,12 @@
-#FAR - http://farmanager.com/
-ce6596f7fe7d853222d203b6280ea9b1216d346a3e9e91b25477ce7b40483a31	http://farmanager.com/files/Far30b5000.x64.20170807.7z
-ed231b5b8651f7ca163c3c48842fd13479914e1ee3cb4f634fb629706f8d858f	http://farmanager.com/files/Far30b5000.x86.20170807.7z
+# FAR - http://farmanager.com/
+# https://farmanager.com/download.php?l=en
+
+55559314f24b5b8b13d3f7620164b8b551c937eb93fd14898abe67aaf49ef4f0	http://farmanager.com/files/Far30b5254.x64.20180805.7z
+fb8af7b3d1d37a8cb4f93a23eb8f8062164e1ba738450bc3fca679c2fb1126fd	http://farmanager.com/files/Far30b5254.x86.20180805.7z
+
+# ce6596f7fe7d853222d203b6280ea9b1216d346a3e9e91b25477ce7b40483a31	http://farmanager.com/files/Far30b5000.x64.20170807.7z
+# ed231b5b8651f7ca163c3c48842fd13479914e1ee3cb4f634fb629706f8d858f	http://farmanager.com/files/Far30b5000.x86.20170807.7z
 
 # 161ec4a51615a7c8b2a8931d38b28d109e3f837e94af0d78f813738a363cae84	http://farmanager.com/files/Far30b4900.x64.20170221.7z
 # 341c9765982deb12204785ccc42b718413b3119ef2d0023e540e41efc6d3192d	http://farmanager.com/files/Far30b4900.x86.20170221.7z
+
