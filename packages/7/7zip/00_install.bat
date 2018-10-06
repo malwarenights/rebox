@@ -4,8 +4,8 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 set TARGET=%SOFTWARE%\7zip
-set PACKAGE32=7z1604.exe
-set PACKAGE64=7z1604-x64.exe
+set PACKAGE32=7z1805.exe
+set PACKAGE64=7z1805-x64.exe
 
 if exist "%TARGET%" goto END
 

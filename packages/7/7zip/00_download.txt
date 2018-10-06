@@ -1,3 +1,7 @@
 # http://www.7-zip.org
-9bb4dc4fab2a2a45c15723c259dc2f7313c89a5ac55ab7c3f76bba26edc8bcaa	http://www.7-zip.org/a/7z1604-x64.exe
-dbb2b11dea9f4432291e2cbefe14ebe05e021940e983a37e113600eee55daa95	http://www.7-zip.org/a/7z1604.exe
+647a9a621162cd7a5008934a08e23ff7c1135d6f1261689fd954aa17d50f9729	http://www.7-zip.org/a/7z1805.exe
+c1e42d8b76a86ea1890ad080e69a04c75a5f2c0484bdcd838dc8fa908dd4a84c	http://www.7-zip.org/a/7z1805-x64.exe
+
+# 9bb4dc4fab2a2a45c15723c259dc2f7313c89a5ac55ab7c3f76bba26edc8bcaa	http://www.7-zip.org/a/7z1604-x64.exe
+# dbb2b11dea9f4432291e2cbefe14ebe05e021940e983a37e113600eee55daa95	http://www.7-zip.org/a/7z1604.exe
+
