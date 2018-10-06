@@ -1,11 +1,10 @@
 # https://get.adobe.com/reader/otherversions/
 
-3e3188f5dd58a54a4febe0c6facd3ed8dfe2b02ff2e20fe976bd1678b255e8f7	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1800920044/AcroRdrDC1800920044_en_US.exe
+74c1691e0ac61467ab929c31994793eaca9ab205a4c63c20130e9cf080efec29	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1900820071/AcroRdrDC1900820071_en_US.exe
+# 3e3188f5dd58a54a4febe0c6facd3ed8dfe2b02ff2e20fe976bd1678b255e8f7	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1800920044/AcroRdrDC1800920044_en_US.exe
 # 9726c827c5531e92361812d76d1b046cc0f7103ecf5cc168bf9c42f1b4309e24	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1701220093/AcroRdrDC1701220093_en_US.exe
 # 1fbeb565d12b3c95faadaab2f2efa0a26e7f9267ebb1042fc32666abcede6177	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1700920044/AcroRdrDC1700920044_en_US.exe
 # 4b0535b8a527d756e600dd14faa95914b174d837279046d8a2c54d8885f0cd21	https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1700920044/AcroRdrDC1700920044_MUI.exe
 # dfc4b3c70b7ecaeb40414c9d6591d8952131a5fffa0c0f5964324af7154f8111	http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1500720033/AcroRdrDC1500720033_MUI.exe
 
 c438ac343381031cd47dd4ed966c8e86b2bcd5a1959f55c1c7d8c61920dd18bc	https://ardownload2.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe
-
-

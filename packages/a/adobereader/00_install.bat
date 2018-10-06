@@ -1,7 +1,7 @@
 @echo off
 pushd "%~dp0"
 
-SET PACKAGE=AcroRdrDC1800920044_en_US.exe
+SET PACKAGE=AcroRdrDC1900820071_en_US.exe
 
 if exist "%TEMP%\%PACKAGE%.token" goto SKIP
 
