@@ -4,8 +4,8 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 set TARGET=%SOFTWARE%\wireshark
-set PACKAGE32=Wireshark-win32-2.2.7.exe
-set PACKAGE64=Wireshark-win64-2.2.7.exe
+set PACKAGE32=Wireshark-win32-2.6.3.exe
+set PACKAGE64=Wireshark-win64-2.6.3.exe
 
 if exist "%TARGET%" goto END
 
