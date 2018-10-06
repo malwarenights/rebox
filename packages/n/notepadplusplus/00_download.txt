@@ -1,2 +1,8 @@
-c59a2b8ba98d0bb849e55aa8ad1cfc9af54ed9acc1a087a43033e23bebedc0e8	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.exe
-656e7a31ee07d7febcb49822dd166cb72afe23d4dccf546f2c6b45bcd959e5a1	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.x64.exe
+# https://notepad-plus-plus.org
+
+613f36bf5e98be7e56b7ea0c678cfb8534077c2ec1cbe839a854dd0a60278ebb	https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.exe
+09d4cb9123c4aa8c91cb78a12cb8a35e56e337093aeb1600423cf4541be61031	https://notepad-plus-plus.org/repository/7.x/7.5.8/npp.7.5.8.Installer.x64.exe
+
+# c59a2b8ba98d0bb849e55aa8ad1cfc9af54ed9acc1a087a43033e23bebedc0e8	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.exe
+# 656e7a31ee07d7febcb49822dd166cb72afe23d4dccf546f2c6b45bcd959e5a1	https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.Installer.x64.exe
+
