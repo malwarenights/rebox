@@ -9,8 +9,8 @@
 #	https://www.youtube.com/watch?v=8qDEbnofkos
 #
 
-c6cd0795f6f5754ad2ceab576862e5142b8829b9e5004d5081822bfd3ba0ac10	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20180531.zip
 
-# f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
 # 8b9b00901b8a08026b6f3e1b99394f3e3e7c726d9ea70407a60b867d9eb6c9ae	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170516.zip
-
+# f2d1e79d1afe708acf8a4ddb10c537c72c10c68446781f667d98b581fc2fc47b	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20170517.zip
+# c6cd0795f6f5754ad2ceab576862e5142b8829b9e5004d5081822bfd3ba0ac10	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20180531.zip
+533e40025ee69a1b4b436dc6c996c7b34c2b16cec1b45cea0199f19092e77810	https://download.sysinternals.com/files/SysinternalsSuite.zip	SysinternalsSuite-20180724.zip
