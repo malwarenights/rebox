@@ -2,6 +2,10 @@
 # https://docs.microsoft.com/en-us/sysinternals/downloads/
 # https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite
 #
+# sysmonconfig-rebox.xml based on
+# https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml
+# just enabling sha1 and imphash
+#
 # Presentation:
 #	Mark Russinovich - sysinternals - https://www.youtube.com/watch?v=Wuy_Pm3KaV8
 #			 - sysmon	- https://www.youtube.com/watch?v=PLKFCWBswe0

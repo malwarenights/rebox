@@ -15,5 +15,5 @@ SHA256=`sha256sum "$NEWNAME"|cut -d ' ' -f 1`
 sed -i -e 's|^\([0-9a-f]\)|# \1|;' 00_download.txt
 echo "$SHA256	$URL	$NEWNAME" >> 00_download.txt
 
-sed -i -e "s|PACKAGE=SysinternalsSuite-.........zip|$NEWNAME|g" 00_install.bat
+sed -i -e "s|PACKAGE=SysinternalsSuite-.........zip|PACKAGE=${NEWNAME}|g" 00_install.bat
 
