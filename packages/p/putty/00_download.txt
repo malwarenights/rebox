@@ -1,3 +1,3 @@
 #http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-3340c205f858d92d95f7d050b1c1306149e025baafcec184ceebd74d841e92a4	https://the.earth.li/~sgtatham/putty/latest/w32/putty.zip	putty-0.69.zip
-
+# 3340c205f858d92d95f7d050b1c1306149e025baafcec184ceebd74d841e92a4	https://the.earth.li/~sgtatham/putty/latest/w32/putty.zip	putty-0.69.zip
+fd03497b2a65c57c558ff872150d0d47e4727fea74918b2eec7d0c13ffdd8557	https://the.earth.li/~sgtatham/putty/latest/w32/putty.zip	putty-0.70.zip
