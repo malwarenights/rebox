@@ -1,8 +1,15 @@
 # https://github.com/hasherezade/pe_recovery_tools/
 #
 
-af16cb868f81020164a783e47e45cb8ec469b14ecc795dfebe7fcb1b31a6677d	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSWkZWVkxWZTVRZnc	find_forwarders.exe
-a4153c3320da3765585729a321531edbea6698543ac579b3881f9387607f9904	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScnotUWtyM0dyYlk	va_to_import.exe
-9fba1406150765183121456708d0c6bb5a4ded1f062e76325da54a18fe0bd706	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSc0J2Y0JXcGZuUFk	pe_unmapper.exe
-45043487bba6ef5a5896ee0817e512e35466ec9142aaaefeee88a7cfa7a67c85	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScUhoWDFHbi05TkE	imports_unerase.exe
+7084909c9a3eecedcc0f191d9e218aac5db8bd0692497ac04ef1962870be5b29	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSWkZWVkxWZTVRZnc	find_forwarders.exe
+# af16cb868f81020164a783e47e45cb8ec469b14ecc795dfebe7fcb1b31a6677d	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSWkZWVkxWZTVRZnc	find_forwarders.exe
+
+7991274a26a19f2808654e628432ad1a4603f1d13e987cdb3a67c9210723f17b	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScUhoWDFHbi05TkE	imports_unerase.exe
+# 45043487bba6ef5a5896ee0817e512e35466ec9142aaaefeee88a7cfa7a67c85	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScUhoWDFHbi05TkE	imports_unerase.exe
+
+7aead4a78f97313ac720f5fc7b5810e6be82358952f00f42b96ee045d7a2564a	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSc0J2Y0JXcGZuUFk	pe_unmapper.exe
+# 9fba1406150765183121456708d0c6bb5a4ded1f062e76325da54a18fe0bd706	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiSc0J2Y0JXcGZuUFk	pe_unmapper.exe
+
+0137b3c7622a7dd36ea5f4fcee16e48d2104649022a053cf2e22473b6ce3f683	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScnotUWtyM0dyYlk	va_to_import.exe
+# a4153c3320da3765585729a321531edbea6698543ac579b3881f9387607f9904	https://drive.google.com/uc?export=download&id=0Bzb5kQFOXkiScnotUWtyM0dyYlk	va_to_import.exe
 
