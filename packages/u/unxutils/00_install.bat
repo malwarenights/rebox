@@ -25,7 +25,7 @@ echo  ===== unpack the unxutils updates
 7z x -aoa -o%TARGET% UnxUpdates.zip
 
 echo  ===== unpack the checksums from the coreutils
-7z x -aoa -o%TARGET% sums611.zip
+7z x -aoa -o%TARGET% sums-6.11.zip
 
 echo  ===== unpack the hasdeep
 7z x -aoa -o%TARGET% md5deep-4.4.zip
