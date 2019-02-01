@@ -1,0 +1,18 @@
+# https://twitter.com/ithurricanept
+# https://twitter.com/ithurricane
+# https://www.weibo.com/powertool
+# https://code.google.com/archive/p/powertool-google/
+# http://powertool.s601.xrea.com/
+# http://vdisk.weibo.com/u/1662867691
+# https://www.softpedia.com/get/Antivirus/Removal-Tools/ithurricane-PowerTool.shtml
+# https://softpedia-secure-download.com/dl/6474b44acd8df1f7413892aaa3bd1db5/5c54cd64/100245253/software/antivirus/PowerTool_en_20151209.zip
+# http://web.archive.org/web/20161214005227/http://d-h.st/users/powertool
+# http://d-h.st/sk5I
+
+0befb44d570ab13b9803450167561e615188f27ecf3855d41971edc46e76a3ee	http://fs1.d-h.st/download/00218/sk5I/PowerTool_20160308_EN.zip
+
+
+
+# Old version
+# ccd51082a4cb16eaef8a8d1101481073fcc5271c86aabab9b69e1cb8389f3652	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/powertool-google/PowerTool%20V4.5.zip
+# e8f10382f10ffe65f997d1a27eacdee4d0b8ebb8a5d31394d4afb759bb827403	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/powertool-google/PowerTool%20V4.5(en).zip
