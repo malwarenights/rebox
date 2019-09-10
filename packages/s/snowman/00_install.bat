@@ -4,8 +4,8 @@ pushd "%~dp0"
 
 if "%SOFTWARE%"=="" (set SOFTWARE=C:\software)
 set TARGET=%SOFTWARE%\snowman
-set PACKAGE32=snowman-v0.1.0-win-x86.7z
-set PACKAGE64=snowman-v0.1.0-win-x64.7z
+set PACKAGE32=snowman-v0.1.3-win-x86.7z
+set PACKAGE64=snowman-v0.1.3-win-x64.7z
 
 
 if exist "%TARGET%" goto END
