@@ -1,5 +1,7 @@
-# https://github.com/icsharpcode/ILSpy/releases/
+# https://github.com/icsharpcode/ILSpy/releases
 
-e840846f9d38e0e52272e255659c101d6bc74a6ba89263c53815f316b6d78c56	https://github.com/icsharpcode/ILSpy/releases/download/v3.0-beta1/ILSpy_binaries_3.0.0.3142.zip
+4207a9bb57aeb23fbaac4fa7aaacb036095d3ec66a5a2ba5057f42d989c04fd9	https://github.com/icsharpcode/ILSpy/releases/download/v5.0-rc1/ILSpy_binaries_5.0.0.5106-rc1.zip
+e79baa7c88b53698f397f385e0ca2c127b60e91887be62d57ef417ade73106f2	https://github.com/icsharpcode/ILSpy/releases/download/v4.0.1/ILSpy_binaries_4.0.1.4530.zip
 
+# d9852e6e858345c5a850f330233b1a3bfa8d6e1d2695f3d4b7e65a7d9f4f84a8	https://github.com/icsharpcode/ILSpy/releases/download/v4.0-beta2/ILSpy_binaries_4.0.0.4319-beta2.zip
 # d5e42b90024e3cdc047ee55269a057f24ffffb0d5f420d9c544e81e3622774fe	https://github.com/icsharpcode/ILSpy/releases/download/v2.4/ILSpy_Master_2.4.0.1963_Binaries.zip
