@@ -1,0 +1,11 @@
+# http://sandsprite.com/blogs/index.php?uid=7&pid=152
+# http://sandsprite.com/CodeStuff/scdbg.zip
+#
+# https://github.com/dzzie/VS_LIBEMU
+
+02654879bc42871e8a4022a71d1ec7735568cc8714068a7c1753a51909266de9	https://github.com/dzzie/VS_LIBEMU/raw/master/gui_launcher.exe
+c9d605ba51da3b8e2648e150e404d6b5de2d4b60e1896141d02f591590ca64cf	https://github.com/dzzie/VS_LIBEMU/raw/master/manual_en.chm
+ae6de06021928558a4a537792be42b7141b7cc52ee4a0ba6d351dc549108fa67	https://github.com/dzzie/VS_LIBEMU/raw/master/scdbg.exe
+
+1d236fd8d21b55fe07158d2649ccb8e115fb0f4ff2ebb0b0af0e0440432340ac	http://sandsprite.com/CodeStuff/scdbg.zip
+
