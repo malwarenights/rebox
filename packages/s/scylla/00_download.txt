@@ -1,0 +1,11 @@
+# https://github.com/NtQuery/Scylla/releases
+# https://forum.tuts4you.com/files/file/576-scylla-imports-reconstruction/?_fromLogin=1
+# https://forum.tuts4you.com/files/file/576-scylla-imports-reconstruction/?do=download&r=4292&confirm=1&t=1&csrfKey=4be4e2c7fc89632f2c6dbf49b6df45f2
+
+# f874a2c19419e3a7bf23bd4c556296756ecbd589fe60a366ab0585bd124055e9  Scylla_v0.5a.rar
+# f827719b16471c8db05ceae486096dedae8e5fa519eda6db1d4485f2390e549e  Scylla_v0.9.rar
+# ace8a10ee9465b6c7c68ba9f46d0eb75121b6da29eb5efce027bf56cc8f784eb  Scylla_v0.9.5b.rar
+# b627e61c3d643202cccc7cc29e987ba1603e96d6db0708aa92b95343d6e21cb2  Scylla_v0.9.6b.rar
+# 2213ff5678d8181133052e01fdc39d6e2ecf058e673e2b893c2149c65e327093  Scylla_v0.9.7b.rar
+# bc4482be77667ba769afd1d32e8182650f5a9eb63f166ca751ea9ec4b44aeb80  Scylla_v0.9.7c.rar
+48a4338d999ec5f33b5964c51893a04fc9e2d104b0c7786f50751f7db5dcbe52  Scylla_v0.9.8.rar
