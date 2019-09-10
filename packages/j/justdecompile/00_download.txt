@@ -1,0 +1,6 @@
+# https://www.telerik.com/products/decompiler.aspx
+# https://www.telerik.com/download-trial-file/v2/justdecompile
+# https://github.com/telerik/justdecompileengine
+
+# 564f8473ebd796284f6dba57d0e00382a33414bdb346206b6be556355f6a831c	https://www.telerik.com/download-trial-file/v2/justdecompile	JustDecompileSetup_2017_3_1002_3.exe
+d8d64c140a5a279b1113a6879a01eca75c299eb90003cd8d0d0cbedcf0022639	https://downloads.cdn.telerik.com/ef64b96251b3bed9e118c8faa5c7a20b_JustDecompileSetup.exe_2019.3.620.1?Expires=1568219223&Signature=URJJWqIW0DA08GPBSF-iUsr9eywLGXxHlBB6xQAyPOCjtJJbd2HVdOuwlQjM7jR3t9wo8PvMRFtkbynoUOt1aygXUgmCYp5dUYE~RGBSNyQTGwHyDoA4jevz2Hdfg5whZDYEtUXoWvVMgTh7SDhNKog2RH1TMh7FT942Y0oHNhcDqhVUv~osC1PpVuyErz9aB5J5fC~XQFlrLmpUYl~xdwdl47D6BBNjKhMjXnUfJKDgJEElY~9NY9zuliyKCVXFVtBmcCb19O~Eq47A646iWdIQH0rUAqSsgcy5WQaMw0S5XVR1JW2f8G2YVRULCLTMetG6jFz6RRZCtoYUdszP2g__&Key-Pair-Id=APKAJARUJ5BRNXKUUAFQ	JustDecompileSetup-2019.3.620.1.exe
