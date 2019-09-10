@@ -1,5 +1,8 @@
 # https://github.com/sleuthkit/sleuthkit/
 # https://github.com/sleuthkit/sleuthkit/releases
-#
+
+
 # 0c9a0b63023f83a19ff6d5c79e3b1ebf456903a1b115562c575ed20b3ed867a1	https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.4.0/sleuthkit-4.4.0-win32.zip
-68d6e53b65e9c79959955a61d067e3063eb21177adb527e40bbd90b62ad2fdec	https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.6.2/sleuthkit-4.6.2-win32.zip
+# 68d6e53b65e9c79959955a61d067e3063eb21177adb527e40bbd90b62ad2fdec	https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.6.2/sleuthkit-4.6.2-win32.zip
+1e30e8a1d1f79a4e3a2875f14f791da3abbcbe9204452b24d17d0fecd489f29e	https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.6.7/sleuthkit-4.6.7-win32.zip
+
