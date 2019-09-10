@@ -1,7 +1,14 @@
-#http://www.rada.re/r/down.html
-#http://radare.org/get/pkg/radare2-w32-0.9.9-git.zip
-#http://radare.org/get/pkg/radare2-w32-0.10.5.zip
+# http://www.rada.re/r/down.html
+# http://radare.org/get/pkg
+# http://radare.mikelloc.com/get/
+#
+# 	http://radare.org/get/pkg/radare2-w32-0.9.9-git.zip
+# 	http://radare.org/get/pkg/radare2-w32-0.10.5.zip
 # crashes on print msvcrt.dll
-#http://cloud.radare.org/get/1.4.0/radare2-w32-1.4.0.zip
+#
+# 	http://cloud.radare.org/get/1.4.0/radare2-w32-1.4.0.zip
 # fixed d6f0014271ad3f7dafb82cbe95657990b72358f0aa8e9047beee769d6034c565
-e001a03a10cf54c23a35ebfc4aae00e23a4eec08705ef7b2dca4da209e8e843c	http://bin.rada.re/radare2-w32-1.5.0-git.zip
+# e001a03a10cf54c23a35ebfc4aae00e23a4eec08705ef7b2dca4da209e8e843c	http://bin.rada.re/radare2-w32-1.5.0-git.zip
+# 006667485fe87dcdb39bfc98f6b6e5d546f290059f71cf8a02024fcb2db398c0	http://radare.mikelloc.com/get/2.7.0/radare2_installer-msvc_32-2.7.0.exe
+# cabf486c2978994648bb391b0e88795730ae3dd1ae30e6b5238521e23bbdce31	http://radare.mikelloc.com/get/2.7.0/radare2_installer-msvc_64-2.7.0.exe
+aa0ba31f0f410cdb48b572b9e61734671711e1cbfb6658735f1ce1d6bed61472	http://radare.mikelloc.com/get/3.6.0/radare2-msvc_64-3.6.0.zip
